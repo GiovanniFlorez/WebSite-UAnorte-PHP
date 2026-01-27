@@ -16,10 +16,10 @@
     </head>
     <body>
 <!-- =================================================== INCLUDES =================================================== -->
-        <?php include 'pages/preloader.php'; ?>
-        <?php require_once __DIR__ . '/config.php'; ?>
-        <?php include 'pages/header.php'; ?>
-        <?php include 'pages/FAB.php'; ?>
+        <?php include 'includes/preloader.php'; ?>
+        <?php require_once __DIR__ . 'includes/config.php'; ?>
+        <?php include 'includes/header.php'; ?>
+        <?php include 'includes/FAB.php'; ?>
 
 <!-- =================================================== HERO =================================================== -->
         <section class="hero">
@@ -105,7 +105,7 @@
         </div>
         
 <!-- =================================================== FOOTER =================================================== -->
-        <?php include 'pages/footer.php'; ?>
+        <?php include 'includes/footer.php'; ?>
 
 <!-- =================================================== SCRIPTS =================================================== -->
         <script src="assets/js/index.js"></script>
