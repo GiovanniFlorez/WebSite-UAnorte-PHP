@@ -16,10 +16,10 @@
     </head>
     <body>
 <!-- =================================================== INCLUDES =================================================== -->
-        <?php include 'preloader.php'; ?>
-        <?php require_once '../config.php'; ?>
-        <?php include 'header.php'; ?>
-        <?php include 'FAB.php'; ?>
+        <?php include '../includes/preloader.php'; ?>
+        <?php require_once '../includes/config.php'; ?>
+        <?php include '../includes/header.php'; ?>
+        <?php include '../includes/FAB.php'; ?>
 
 <!-- =================================================== ORGANIZATIONAL STRUCTURE =================================================== -->
         <div class="estructura-container">
@@ -28,7 +28,7 @@
 
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
-            <?php include 'footer.php'; ?>
+            <?php include '../includes/footer.php'; ?>
         </div>
 <!-- =================================================== SCRIPTS =================================================== -->
         <script src="../assets/js/header.js"></script>
