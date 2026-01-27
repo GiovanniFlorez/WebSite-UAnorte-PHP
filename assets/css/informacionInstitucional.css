@@ -1,0 +1,293 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2%;
+}
+
+
+.whoAreWe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 5%;
+}
+
+
+.whoAreWe .text,
+.whoAreWe h1 {
+    text-align: left;
+}
+
+.whoAreWe h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #464646;
+}
+
+.whoAreWe p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 100;
+    color: #464646;
+    text-align: justify;
+}
+
+#textoOculto {
+    display: none;
+}
+
+#btnVerMas {
+    background: none;
+    border: none;
+    color: #0056b3;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#btnVerMas:hover {
+    text-decoration: underline;
+}
+
+.imgWhoAreWeUAnorte{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.imgWhoAreWeUAnorte img {
+    width: 50%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.imgDevenirHistorico{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.imgDevenirHistorico img {
+    width: 70%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.misionVision {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 5%;
+}
+
+
+.misionVision .text,
+.misionVision h1 {
+    text-align: left;
+}
+
+.misionVision h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #464646;
+}
+
+.misionVision p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 100;
+    color: #464646;
+    text-align: justify;
+}
+
+.values h1.titleValue {
+    font-size: 46px;
+    margin-bottom: 15px;
+    color: #464646;
+    text-align: center;
+}
+
+.swiper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.swiper-slide img {
+    width: 30%;
+    height: auto;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #32dbfd;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: #fa4156;
+}
+
+.swiper-pagination-bullet {
+    background: #32dbfd;
+    opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fa4156;
+    opacity: 1;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 768px) {
+    .swiper-slide img {
+        width: 80%;
+    }
+    .swiper-slide h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper-slide img {
+        width: 90%;
+    }
+    .swiper-slide h1 {
+        font-size: 24px;
+    }
+}
+
+.campus h1 {
+    font-size: 46px;
+    margin-bottom: 15px;
+    color: #464646;
+    text-align: center;
+}
+
+.campusColumns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 0 5%;
+}
+
+
+.campusColumns img {
+    width: 100%;
+    height: auto;
+}
+
+.campusColumns iframe {
+    margin-top: 5%;
+    width: 100%;
+    height: 91%;
+    border: none;
+    border-radius: 5%;
+}
+
+.footer{
+    margin-top: 5%;
+}
+
+/* ===================== RESPONSIVE ===================== */
+
+@media (max-width: 1024px) {
+    .whoAreWe,
+    .misionVision,
+    .campusColumns {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .whoAreWe p,
+    .misionVision p {
+        text-align: justify;
+    }
+
+    .imgWhoAreWeUAnorte img {
+        margin: 20px auto 0;
+    }
+
+    .campusColumns iframe {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .valuesColumns {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .values h1,
+    .campus h1 {
+        font-size: 32px;
+    }
+
+    .valuesColumns h1 {
+        font-size: 26px;
+    }
+
+    .imgValues img {
+        width: 70%;
+    }
+
+    .two img {
+        width: 45% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .whoAreWe,
+    .misionVision,
+    .campusColumns {
+        margin: 30px 20px;
+    }
+
+    .whoAreWe h1,
+    .misionVision h1 {
+        font-size: 28px;
+    }
+
+    .whoAreWe p,
+    .misionVision p {
+        font-size: 16px;
+    }
+
+    .campusColumns iframe {
+        height: 280px;
+    }
+}
