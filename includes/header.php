@@ -38,7 +38,7 @@
                                 <li><a href="<?php echo BASE_URL; ?>pages/directorio.php">Directorio</a></li>
                                 <li><a href="#">Normatividad</a></li>
                                 <li><a href="#">Derechos Pecuniarios</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>pages/cienciaInnovacion.php">Ciencia e innovación</a></li>
+                                <li><a href="financiacioncienciaInnovacion.php">Ciencia e innovación</a></li>
                                 <li><a href="#">Extensión</a></li>
                                 <li><a href="#">Bienestar</a></li>
                                 <li><a href="#">Biblioteca</a></li>
@@ -57,9 +57,9 @@
 
                         <div class="submenu">
                             <ul>
-                                <li><a href="#">Aspirante</a></li>
+                                <li><a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14"  target="_blank" rel="noopener noreferrer">Aspirante</a></li>
                                 <li><a href="#">Inscripciones</a></li>
-                                <li><a href="#">Financiamiento y Becas</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/financiacion.php">Financiamiento y Becas</a></li>
                             </ul>
                         </div>
                     </li>
@@ -93,7 +93,7 @@
 
                         <div class="submenu">
                             <ul>
-                                <li><a href="#">PQRSF</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/PQRSF.php">PQRSF</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/canalesAtencion.php">Canales de Atención</a></li>
                                 <li><a href="https://appcerficados.uanorte.edu.co/" target="_blank" rel="noopener noreferrer">Certificados</a></li>
                             </ul>

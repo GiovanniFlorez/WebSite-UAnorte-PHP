@@ -14,7 +14,6 @@ function verMas() {
     }
 }
 
-// Esperar a que el DOM cargue completamente
 document.addEventListener("DOMContentLoaded", function() {
     const swiper = new Swiper('.swiper', {
         slidesPerView: 1,

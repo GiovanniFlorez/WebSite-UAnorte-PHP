@@ -17,7 +17,7 @@
     <body>
 <!-- =================================================== INCLUDES =================================================== -->
         <?php include 'includes/preloader.php'; ?>
-        <?php require_once __DIR__ . 'includes/config.php'; ?>
+        <?php require_once __DIR__ . '/includes/config.php'; ?>
         <?php include 'includes/header.php'; ?>
         <?php include 'includes/FAB.php'; ?>
 
