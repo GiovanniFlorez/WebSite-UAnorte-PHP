@@ -143,7 +143,7 @@ html, body {
 }
 
 .swiper-slide img {
-    width: 30%;
+    width: 100%;
     height: auto;
     border-radius: 5%;
     margin-top: 10px;
@@ -158,6 +158,7 @@ html, body {
 .swiper-button-prev:hover {
     color: #fa4156;
 }
+
 
 .swiper-pagination-bullet {
     background: #32dbfd;

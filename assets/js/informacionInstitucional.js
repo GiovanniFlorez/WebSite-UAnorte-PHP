@@ -16,9 +16,29 @@ function verMas() {
 
 document.addEventListener("DOMContentLoaded", function() {
     const swiper = new Swiper('.swiper', {
-        slidesPerView: 1,
-        spaceBetween: 30,
         loop: true,
+        centeredSlides: true,
+        slidesPerView: 3,
+        spaceBetween: 30,
+        effect: "coverflow",
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 150,
+            modifier: 1,
+            slideShadows: false,
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 3,
+            }
+        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',

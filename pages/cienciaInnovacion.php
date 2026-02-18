@@ -21,10 +21,8 @@
         <?php include '../includes/header.php'; ?>
         <?php include '../includes/FAB.php'; ?>
 
-<!-- =================================================== ORGANIZATIONAL STRUCTURE =================================================== -->
-        <div class="estructura-container">
-            <img src="../assets/img/Organigrama.svg" alt="Estructura Organizacional" class="estructura-img">
-        </div>
+<!-- ===================================================  =================================================== -->
+        
 
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
