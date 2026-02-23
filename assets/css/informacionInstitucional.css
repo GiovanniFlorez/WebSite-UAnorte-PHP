@@ -39,10 +39,6 @@ html, body {
     text-align: justify;
 }
 
-#textoOculto {
-    display: none;
-}
-
 #btnVerMas {
     background: none;
     border: none;
@@ -62,6 +58,10 @@ html, body {
     justify-content: center;
     align-items: center;
     margin-top: 15%;
+}
+
+.oculto {
+    display: none;
 }
 
 .imgWhoAreWeUAnorte img {

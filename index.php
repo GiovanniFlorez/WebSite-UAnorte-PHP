@@ -86,7 +86,7 @@
 
 <!-- =================================================== ABOUT UANORTE =================================================== -->
         <div class="about">
-            <div  class="text">
+            <div class="text">
                 <h1>Acerca De UAnorte</h1>
                 <p>
                     La Corporación Universitaria Autónoma del Norte - UANorte es la primera 

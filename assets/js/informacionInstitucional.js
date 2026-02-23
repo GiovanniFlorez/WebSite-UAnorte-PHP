@@ -3,14 +3,13 @@ function verMas() {
     const puntos = document.getElementById("puntos");
     const btn = document.getElementById("btnVerMas");
 
-    if (texto.style.display === "none") {
-        texto.style.display = "inline";
-        puntos.style.display = "none";
-        btn.innerText = "Ver menos";
-    } else {
-        texto.style.display = "none";
-        puntos.style.display = "inline";
+    texto.classList.toggle("oculto");
+    puntos.classList.toggle("oculto");
+
+    if (texto.classList.contains("oculto")) {
         btn.innerText = "Ver más";
+    } else {
+        btn.innerText = "Ver menos";
     }
 }
 

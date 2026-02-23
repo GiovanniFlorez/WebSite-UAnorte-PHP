@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding-top: 5%;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 0 30px;
+}
+
+.columnImg .imgInvestigation {
+    width: 100%;
+}
+
+.columnText,
+.columnText h1 {
+    text-align: left;
+}
+
+.columnText h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #464646;
+}
+
+.columnText p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 100;
+    color: #464646;
+    text-align: justify;
+}

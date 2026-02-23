@@ -23,7 +23,7 @@
 
 <!-- =================================================== LIBRARY =================================================== -->
         
-        <!-- ========================================== FILA 1 ========================================== -->
+        <!-- ========================================== ROW 1 ========================================== -->
         <div class="columnas">
             <div class="subColumna">
                 <a href="https://statistics.cepal.org/portal/cepalstat/index.html?lang=es" target="_blank" rel="noopener noreferrer">
@@ -76,24 +76,9 @@
             </div>
         </div>
 
-        <!-- ========================================== FILA 2 ========================================== -->
+        <!-- ========================================== ROW 2 ========================================== -->
+        
         <div class="columnas">
-            <div class="subColumna">
-                <a href="https://www.redalyc.org/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-4.png" alt="">
-                </a>
-
-                <div>
-                    <a href="https://www.redalyc.org/" target="_blank" rel="noopener noreferrer">
-                        <p class="p1">Sistema de Información Científica Redalyc</p>
-                    </a>
-
-                    <p class="p2">Somos un grupo de investigación multidisciplinario en 
-                        comunicación y difusión de la Ciencia
-                    </p>
-                </div>
-            </div>
-
             <div class="subColumna">
                 <a href="https://dialnet.unirioja.es/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-1-2.png" alt="">
@@ -125,10 +110,7 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!-- ========================================== FILA 3 ========================================== -->
-        <div class="columnas">
             <div class="subColumna">
                 <a href="https://doaj.org/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-4-1.png" alt="">
@@ -145,7 +127,10 @@
                     </p>
                 </div>
             </div>
+        </div>
 
+        <!-- ========================================== ROW 3 ========================================== -->
+        <div class="columnas">
             <div class="subColumna">
                 <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-6.png" alt="">
@@ -180,10 +165,7 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!-- ========================================== FILA 4 ========================================== -->
-        <div class="columnas">
             <div class="subColumna">
                 <a href="https://www.imf.org/es/Home" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/11-3.png" alt="">
@@ -200,7 +182,10 @@
                     </p>
                 </div>
             </div>
+        </div>
 
+        <!-- ========================================== ROW 4 ========================================== -->
+        <div class="columnas">
             <div class="subColumna">
                 <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/12-1.png" alt="">
@@ -235,10 +220,7 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!-- ========================================== FILA 5 ========================================== -->
-        <div class="columnas">
             <div class="subColumna">
                 <a href="https://www.loc.gov/collections/world-digital-library/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/14-1.png" alt="">
@@ -254,7 +236,10 @@
                     </p>
                 </div>
             </div>
+        </div>
 
+        <!-- ========================================== ROW 5 ========================================== -->
+        <div class="columnas">
             <div class="subColumna">
                 <a href="https://www.cervantesvirtual.com/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/15.png" alt="">
@@ -290,10 +275,7 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!-- ========================================== FILA 6 ========================================== -->
-        <div class="columnas">
             <div class="subColumna">
                 <a href="https://about.proquest.com/en/libraries/public/?t=Subjects__Health%20%26%20Medicine|Content%20Type__Databases&page=1&pageSize=16" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/17.png" alt="">
@@ -309,7 +291,10 @@
                     </p>
                 </div>
             </div>
+        </div>
 
+        <!-- ========================================== ROW 6 ========================================== -->
+        <div class="columnas">
             <div class="subColumna">
                 <a href="https://go.apa.org/psycinfo/?utm_campaign=apa_publishing&utm_medium=display_google&utm_source=library&utm_content=psycinfo_pi_evergreen_publishing_search_campaign_03022023&utm_term=psycinfo_adgroup&gad_source=1&gclid=EAIaIQobChMIhcv-gazaggMV_FJ_AB396wKKEAAYASAAEgLCg_D_BwE" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/19.png" alt="">
@@ -345,10 +330,7 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!-- ========================================== FILA 7 ========================================== -->
-        <div class="columnas">
             <div class="subColumna">
                 <a href="https://plos.org/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/20.png" alt="">
@@ -364,7 +346,10 @@
                     </p>
                 </div>
             </div>
+        </div>
 
+        <!-- ========================================== ROW 7 ========================================== -->
+        <div class="columnas">
             <div class="subColumna">
                 <a href="https://sedici.unlp.edu.ar/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-8.png" alt="">
@@ -400,10 +385,7 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!-- ========================================== FILA 8 ========================================== -->
-        <div class="columnas">
             <div class="subColumna">
                 <a href="https://eduteka.icesi.edu.co/tag/inicio/%20eduteka-lab" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-1-3.png" alt="">
@@ -420,23 +402,10 @@
                     </p>
                 </div>
             </div>
+        </div>
 
-            <div class="subColumna">
-                <a href="https://openaccessbutton.org/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-3-1.png" alt="">
-                </a>
-
-                <div>
-                    <a href="https://openaccessbutton.org/" target="_blank" rel="noopener noreferrer">
-                        <p class="p1">Open Access</p>
-                    </a>
-
-                    <p class="p2">Artículos de investigación jurídica gratuitos entregados instantáneamente 
-                        o solicitados automáticamente a los autores.
-                    </p>
-                </div>
-            </div>
-
+        <!-- ========================================== ROW 8 ========================================== -->
+        <div class="columnas">
             <div class="subColumna">
                 <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-4-2.png" alt="">
@@ -454,10 +423,7 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!-- ========================================== FILA 9 ========================================== -->
-        <div class="columnas">
             <div class="subColumna">
                 <a href="https://basedatos.ibero.edu.co/subjects/databases.php?letter=bytype&type=recursos_de_acceso_libre" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-9.png" alt="">
@@ -491,7 +457,10 @@
                     </p>
                 </div>
             </div>
+        </div>
 
+        <!-- ========================================== ROW 9 ========================================== -->
+        <div class="columnas">
             <div class="subColumna">
                 <a href="https://plato.stanford.edu/" target="_blank" rel="noopener noreferrer">
                     <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-5-1.png" alt="">

@@ -49,7 +49,7 @@
                         <br>
                         <span id="puntos">...</span>
 
-                        <span id="textoOculto">
+                        <span id="textoOculto" class="oculto">
                             <br>
                             Estamos convencidos de que la Educación genera valores agregados personales y 
                             colectivos y que unidos todos los actores estratégicos del sector público y 
