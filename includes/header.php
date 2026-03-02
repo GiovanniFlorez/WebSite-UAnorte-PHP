@@ -39,7 +39,7 @@
                                 <li><a href="#">Normatividad</a></li>
                                 <li><a href="#">Derechos Pecuniarios</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/cienciaInnovacion.php">Ciencia e innovación</a></li>
-                                <li><a href="#">Extensión</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/extension.php">Extensión</a></li>
                                 <li><a href="#">Bienestar</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/biblioteca.php">Biblioteca</a></li>
                             </ul>

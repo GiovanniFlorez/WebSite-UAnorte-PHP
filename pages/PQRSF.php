@@ -24,63 +24,73 @@
 <!-- =================================================== TEXT =================================================== -->
         <div class="text">
 
-        <!-- ================================ REQUESTS ================================ -->
+            <!-- ================================ REQUESTS ================================ -->
             <div class="card">
-                <h3>P - Peticiones</h3>
-
-                <p>
-                    Son las solicitudes formales que cualquier persona puede presentar a la institución, 
-                    de manera respetuosa, para requerir información, realizar consultas o solicitar actuaciones 
-                    relacionadas con asuntos de interés general o particular que sean competencia de la 
-                    universidad, esperando una respuesta oportuna y de fondo.
-                </p>
+                <div class="card-letter">P</div>
+                <div class="card-pill">PETICIONES</div>
+                <div class="card-text">
+                    <p>
+                        Son las solicitudes formales que cualquier persona puede presentar a la institución, 
+                        de manera respetuosa, para requerir información, realizar consultas o solicitar actuaciones 
+                        relacionadas con asuntos de interés general o particular que sean competencia de la 
+                        universidad, esperando una respuesta oportuna y de fondo.
+                    </p>
+                </div>
             </div>
 
-        <!-- ================================ COMPLAINTS ================================ -->
+            <!-- ================================ COMPLAINTS ================================ -->
             <div class="card">
-                <h3>Q - Quejas</h3>
-
-                <p>
-                    Corresponden a las manifestaciones de inconformidad o descontento que realiza una persona 
-                    frente a comportamientos, acciones u omisiones que considera inadecuadas o irregulares por 
-                    parte de funcionarios, contratistas o colaboradores de la institución en el ejercicio de sus 
-                    funciones.
-                </p>
+                <div class="card-letter">Q</div>
+                <div class="card-pill">QUEJAS</div>
+                <div class="card-text">
+                    <p>
+                        Corresponden a las manifestaciones de inconformidad o descontento que realiza una persona 
+                        frente a comportamientos, acciones u omisiones que considera inadecuadas o irregulares por 
+                        parte de funcionarios, contratistas o colaboradores de la institución en el ejercicio de sus 
+                        funciones.
+                    </p>
+                </div>
             </div>
 
-        <!-- ================================ CLAIMS ================================ -->
+            <!-- ================================ CLAIMS ================================ -->
             <div class="card">
-                <h3>R - Reclamos</h3>
-
-                <p>
-                    Son las solicitudes mediante las cuales una persona exige la corrección o solución de una 
-                    situación relacionada con la prestación deficiente de un servicio, el incumplimiento de un 
-                    procedimiento o la falta de atención oportuna a una solicitud por parte de la institución.
-                </p>
+                <div class="card-letter">R</div>
+                <div class="card-pill">RECLAMOS</div>
+                <div class="card-text">
+                    <p>
+                        Son las solicitudes mediante las cuales una persona exige la corrección o solución de una 
+                        situación relacionada con la prestación deficiente de un servicio, el incumplimiento de un 
+                        procedimiento o la falta de atención oportuna a una solicitud por parte de la institución.
+                    </p>
+                </div>
             </div>
 
-        <!-- ================================ SUGGESTIONS ================================ -->
+            <!-- ================================ SUGGESTIONS ================================ -->
             <div class="card">
-                <h3>S - Sugerencias</h3>
-
-                <p>
-                    Son las propuestas, ideas u observaciones que presentan los usuarios con el fin de aportar 
-                    a la mejora continua de los servicios, procesos o la gestión institucional de la universidad.
-                </p>
+                <div class="card-letter">S</div>
+                <div class="card-pill">SUGERENCIAS</div>
+                <div class="card-text">
+                    <p>
+                        Son las propuestas, ideas u observaciones que presentan los usuarios con el fin de aportar 
+                        a la mejora continua de los servicios, procesos o la gestión institucional de la universidad.
+                    </p>
+                </div>
             </div>
 
-        <!-- ================================ CONGRATULATIONS ================================ -->
+            <!-- ================================ CONGRATULATIONS ================================ -->
             <div class="card">
-                <h3>F - Felicitaciones</h3>
-
-                <p>
-                    Son las expresiones de reconocimiento, agradecimiento o satisfacción que realizan los 
-                    usuarios por la calidad del servicio recibido, la atención brindada o la adecuada gestión 
-                    desarrollada por la institución o alguno de sus colaboradores.
-                </p>
+                <div class="card-letter">F</div>
+                <div class="card-pill">FELICITACIONES</div>
+                <div class="card-text">
+                    <p>
+                        Son las expresiones de reconocimiento, agradecimiento o satisfacción que realizan los 
+                        usuarios por la calidad del servicio recibido, la atención brindada o la adecuada gestión 
+                        desarrollada por la institución o alguno de sus colaboradores.
+                    </p>
+                </div>
             </div>
+
         </div>
-
         <hr style="margin-top: 5%;">
 
 <!-- =================================================== FORM PQRSF =================================================== -->
