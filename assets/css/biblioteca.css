@@ -5,31 +5,53 @@ body, html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.columnas {
+.columns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     margin: 30px 40px;
 }
 
-.subColumna {
+.services h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #464646;
+    text-align: center;
+}
+
+.computerRoom p,
+.bookLoan p,
+.readingRoom p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 100;
+    color: #464646;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700 !important;
+    font-size: 22px !important;
+}
+
+.subColumn {
     display: flex;
     align-items: flex-start;
     gap: 10px;
     margin-bottom: 25px;
 }
 
-.subColumna a {
+.subColumn a {
     display: block;
     transition: transform 0.25s ease;
     text-decoration: none;
 }
 
-.subColumna a:hover {
+.subColumn a:hover {
     transform: scale(1.08);
 }
 
-.imgBibliotecas {
+.imgLibrary {
     width: 85px;
     height: auto;
     margin-top: 20px;
@@ -66,7 +88,7 @@ body, html {
         gap: 20px;
     }
 
-    .imgBibliotecas {
+    .imgLibrary {
         width: 75px;
     }
 
@@ -89,13 +111,13 @@ body, html {
         margin: 15px;
     }
 
-    .subColumna {
+    .subColumn {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .imgBibliotecas {
+    .imgLibrary {
         width: 80px;
         margin: 10px auto;
     }

@@ -22,12 +22,43 @@
         <?php include '../includes/FAB.php'; ?>
 
 <!-- =================================================== LIBRARY =================================================== -->
-        
+        <div class="services">
+            <h1>Servicios</h1>
+            <div class="columns">
+                <div class="computerRoom">
+                    <p class="title">Sala de Cómputo</p>
+
+                    <p>
+                        Disponibilidad de equipos de cómputo para que los estudiantes puedan desarrollar 
+                        sus actividades académicas y de consulta de forma autónoma.
+                    </p>
+                </div>
+
+                <div class="bookLoan">
+                    <p class="title">Prestamos de Libros</p>
+
+                    <p>
+                        La biblioteca ofrece el servicio de préstamo de material bibliográfico para apoyar 
+                        los procesos académicos y de aprendizaje de la comunidad universitaria.
+                    </p>
+                </div>
+
+                <div class="readingRoom">
+                    <p class="title">Sala de Lectura</p>
+
+                    <p>
+                        Espacio habilitado para la lectura,  estudio individual o grupal y la realización 
+                        de actividades académicas en un ambiente adecuado.
+                    </p>
+                </div>
+            </div>
+        </div>        
+
         <!-- ========================================== ROW 1 ========================================== -->
-        <div class="columnas">
-            <div class="subColumna">
+        <div class="columns">
+            <div class="subColumn">
                 <a href="https://statistics.cepal.org/portal/cepalstat/index.html?lang=es" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-3.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-3.png" alt="">
                 </a>
 
                 <div>
@@ -42,9 +73,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://www.scielo.org/" target="_blank" rel="noopener noreferrer" class="imgLink">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-2.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-2.png" alt="">
                 </a>
 
                 <div>
@@ -58,9 +89,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://www.ssrn.com/index.cfm/en/" target="_blank" rel="noopener noreferrer" class="imgLink">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-1-1.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-1-1.png" alt="">
                 </a>
 
                 <div>
@@ -78,10 +109,10 @@
 
         <!-- ========================================== ROW 2 ========================================== -->
         
-        <div class="columnas">
-            <div class="subColumna">
+        <div class="columns">
+            <div class="subColumn">
                 <a href="https://dialnet.unirioja.es/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-1-2.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-1-2.png" alt="">
                 </a>
 
                 <div>
@@ -95,9 +126,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://books.google.es/" target="_blank" rel="noopener noreferrer" class="imgLink">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-2-2.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-2-2.png" alt="">
                 </a>
 
                 <div>
@@ -111,9 +142,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://doaj.org/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-4-1.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-4-1.png" alt="">
                 </a>
 
                 <div>
@@ -130,10 +161,10 @@
         </div>
 
         <!-- ========================================== ROW 3 ========================================== -->
-        <div class="columnas">
-            <div class="subColumna">
+        <div class="columns">
+            <div class="subColumn">
                 <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-6.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-6.png" alt="">
                 </a>
 
                 <div>
@@ -148,9 +179,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://publications.iadb.org/es" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-7.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-7.png" alt="">
                 </a>
 
                 <div>
@@ -166,9 +197,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://www.imf.org/es/Home" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/11-3.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/11-3.png" alt="">
                 </a>
 
                 <div>
@@ -185,10 +216,10 @@
         </div>
 
         <!-- ========================================== ROW 4 ========================================== -->
-        <div class="columnas">
-            <div class="subColumna">
+        <div class="columns">
+            <div class="subColumn">
                 <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/12-1.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/12-1.png" alt="">
                 </a>
 
                 <div>
@@ -204,9 +235,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://eric.ed.gov/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/13-1.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/13-1.png" alt="">
                 </a>
                 
                 <div>
@@ -221,9 +252,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://www.loc.gov/collections/world-digital-library/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/14-1.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/14-1.png" alt="">
                 </a>
 
                 <div>
@@ -239,10 +270,10 @@
         </div>
 
         <!-- ========================================== ROW 5 ========================================== -->
-        <div class="columnas">
-            <div class="subColumna">
+        <div class="columns">
+            <div class="subColumn">
                 <a href="https://www.cervantesvirtual.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/15.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/15.png" alt="">
                 </a>
 
                 <div>
@@ -258,9 +289,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://www.unalex.eu/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-5.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-5.png" alt="">
                 </a>
                 
                 <div>
@@ -276,9 +307,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://about.proquest.com/en/libraries/public/?t=Subjects__Health%20%26%20Medicine|Content%20Type__Databases&page=1&pageSize=16" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/17.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/17.png" alt="">
                 </a>
 
                 <div>
@@ -294,10 +325,10 @@
         </div>
 
         <!-- ========================================== ROW 6 ========================================== -->
-        <div class="columnas">
-            <div class="subColumna">
+        <div class="columns">
+            <div class="subColumn">
                 <a href="https://go.apa.org/psycinfo/?utm_campaign=apa_publishing&utm_medium=display_google&utm_source=library&utm_content=psycinfo_pi_evergreen_publishing_search_campaign_03022023&utm_term=psycinfo_adgroup&gad_source=1&gclid=EAIaIQobChMIhcv-gazaggMV_FJ_AB396wKKEAAYASAAEgLCg_D_BwE" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/19.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/19.png" alt="">
                 </a>
 
                 <div>
@@ -313,9 +344,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://bvsalud.org/es/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/18.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/18.png" alt="">
                 </a>
                 
                 <div>
@@ -331,9 +362,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://plos.org/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/20.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/20.png" alt="">
                 </a>
 
                 <div>
@@ -349,10 +380,10 @@
         </div>
 
         <!-- ========================================== ROW 7 ========================================== -->
-        <div class="columnas">
-            <div class="subColumna">
+        <div class="columns">
+            <div class="subColumn">
                 <a href="https://sedici.unlp.edu.ar/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-8.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-8.png" alt="">
                 </a>
 
                 <div>
@@ -369,9 +400,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://www.datos.gov.co/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/21-2.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/21-2.png" alt="">
                 </a>
                 
                 <div>
@@ -386,9 +417,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://eduteka.icesi.edu.co/tag/inicio/%20eduteka-lab" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-1-3.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-1-3.png" alt="">
                 </a>
 
                 <div>
@@ -405,10 +436,10 @@
         </div>
 
         <!-- ========================================== ROW 8 ========================================== -->
-        <div class="columnas">
-            <div class="subColumna">
+        <div class="columns">
+            <div class="subColumn">
                 <a href="https://archive.org/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-4-2.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-4-2.png" alt="">
                 </a>
                 
                 <div>
@@ -424,9 +455,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://basedatos.ibero.edu.co/subjects/databases.php?letter=bytype&type=recursos_de_acceso_libre" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-9.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-9.png" alt="">
                 </a>
 
                 <div>
@@ -442,9 +473,9 @@
                 </div>
             </div>
 
-            <div class="subColumna">
+            <div class="subColumn">
                 <a href="https://www.virtualpro.co/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-8-1.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-8-1.png" alt="">
                 </a>
 
                 <div>
@@ -460,10 +491,10 @@
         </div>
 
         <!-- ========================================== ROW 9 ========================================== -->
-        <div class="columnas">
-            <div class="subColumna">
+        <div class="columns">
+            <div class="subColumn">
                 <a href="https://plato.stanford.edu/" target="_blank" rel="noopener noreferrer">
-                    <img class="imgBibliotecas" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-5-1.png" alt="">
+                    <img class="imgLibrary" src="https://uanorte.edu.co/web/wp-content/uploads/2023/11/Diseno-sin-titulo-5-1.png" alt="">
                 </a>
                 
                 <div>

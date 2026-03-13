@@ -108,7 +108,6 @@
         <?php include 'includes/footer.php'; ?>
 
 <!-- =================================================== SCRIPTS =================================================== -->
-        <script src="assets/js/index.js"></script>
         <script src="assets/js/header.js"></script>
         <script src="assets/js/preloader.js"></script>
         <script src="assets/js/FAB.js"></script>
