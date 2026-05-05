@@ -25,7 +25,7 @@
         <div class="services">
             <h1>Servicios</h1>
             <div class="columns">
-                <div class="computerRoom">
+                <div class="computerRoom" id="border">
                     <p class="title">Sala de Cómputo</p>
 
                     <p>
@@ -34,7 +34,7 @@
                     </p>
                 </div>
 
-                <div class="bookLoan">
+                <div class="bookLoan" id="border">
                     <p class="title">Prestamos de Libros</p>
 
                     <p>
@@ -43,7 +43,7 @@
                     </p>
                 </div>
 
-                <div class="readingRoom">
+                <div class="readingRoom" id="border">
                     <p class="title">Sala de Lectura</p>
 
                     <p>

@@ -22,10 +22,10 @@
         <?php include '../includes/header.php'; ?>
         <?php include '../includes/FAB.php'; ?>
 
-<!-- =================================================== DIRECTORIO =================================================== -->
+<!-- =================================================== DIRECTORY =================================================== -->
         <section class="directorio">
 
-            <!-- ================================ VICERRECTORÍA ADMINISTRATIVA Y FINANCIERA ================================ -->
+            <!-- ================================ OFFICE OF THE VICE-RECTOR FOR ADMINISTRATION AND FINANCE ================================ -->
             <div class="card">
                 <h3>Vicerrectoría Administrativa y Financiera</h3>
 
@@ -38,7 +38,7 @@
                 <p>📍 Oficina de Rectoría</p>
             </div>
 
-            <!-- ================================ TALENTO HUMANO ================================ -->
+            <!-- ================================ HUMAN TALENT ================================ -->
             <div class="card">
                 <h3>Talento Humano</h3>
 
@@ -51,7 +51,7 @@
                 <p>📍 Oficina de Secretaría General</p>
             </div>
 
-            <!-- ================================ DIRECCIONAMIENTO DE LA CALIDAD ================================ -->
+            <!-- ================================ QUALITY MANAGEMENT ================================ -->
             <div class="card">
                 <h3>Direccionamiento de la Calidad</h3>
 
@@ -64,7 +64,7 @@
                 <p>📍 Oficina de Rectoría</p>
             </div>
 
-            <!-- ================================ ADMISIONES Y MATRÍCULAS ================================ -->
+            <!-- ================================ ADMISSIONS AND REGISTRATION ================================ -->
             <div class="card">
                 <h3>Admisiones y Matrículas</h3>
                 <p class="encargado">Daniela Alejandra Chacón Blanco</p>
@@ -76,7 +76,7 @@
                 <p>📍 Oficina de Admisiones y Matrícula</p>
             </div>
 
-            <!-- ================================ REGISTRO Y CONTROL ================================ -->
+            <!-- ================================ REGISTRATION AND CONTROL ================================ -->
             <div class="card">
                 <h3>Registro y Control</h3>
                 <p class="encargado">Sandra Mireya Rodríguez Espinel</p>
@@ -88,7 +88,7 @@
                 <p>📍 Oficina de Registro y Control</p>
             </div>
 
-            <!-- ================================ COMUNICACIONES ================================ -->
+            <!-- ================================ COMMUNICATIONS ================================ -->
             <div class="card">
                 <h3>Comunicaciones</h3>
 
@@ -101,23 +101,23 @@
                 <p>📍 Oficina de Admisiones y Matrícula</p>
             </div>
 
-            <!-- ================================ INFRAESTRUCTURA FÍSICA Y TECNOLÓGICA ================================ -->
+            <!-- ================================ PHYSICAL AND TECHNOLOGICAL INFRASTRUCTURE ================================ -->
             <div class="card">
                 <h3>Infraestructura Física y Tecnológica</h3>
 
                 <p class="encargado">
-                    Rafael Ricardo Ramírez Ibarra<br>
-                    Jhon Jairo Berrío Urquijo
+                    Jhon Jairo Berrío Urquijo<br>
+                    Nelson Giovanni Florez Meneses
                 </p>
 
                 <p>📧 <a href="mailto:infraestructura@uanorte.edu.co">infraestructura@uanorte.edu.co</a></p>
 
-                <p>🕒 8:00 am – 12:00 pm<br>1:00 pm – 5:00 pm</p>
+                <p>🕒 9:00 am – 01:00 pm<br>1:30 pm - 9:30 pm</p>
 
-                <p>📍 Oficina de Registro y Control</p>
+                <p>📍 Oficina de Admisiones y Matrícula</p>
             </div>
 
-            <!-- ================================ MEDIOS EDUCATIVOS ================================ -->
+            <!-- ================================ EDUCATIONAL RESOURCES ================================ -->
             <div class="card">
                 <h3>Medios Educativos</h3>
 
@@ -125,12 +125,12 @@
 
                 <p>📧 <a href="mailto:medioseducativos@uanorte.edu.co">medioseducativos@uanorte.edu.co</a></p>
 
-                <p>🕒 7:00 am – 11:00 am<br>4:00 pm – 7:00 pm</p>
+                <p>🕒 6:00 am – 11:00 am<br>4:00 pm – 7:00 pm</p>
 
                 <p>📍 Oficina de Registro y Control</p>
             </div>
 
-            <!-- ================================ FINANCIERA ================================ -->
+            <!-- ================================ FINANCIAL ================================ -->
             <div class="card">
                 <h3>Financiera</h3>
 
@@ -143,7 +143,7 @@
                 <p>📍 Oficina de Admisiones y Matrícula</p>
             </div>
 
-            <!-- ================================ CONTABILIDAD ================================ -->
+            <!-- ================================ ACCOUNTING ================================ -->
             <div class="card">
                 <h3>Contabilidad</h3>
                 <p class="encargado">Yesenia Margarita Uribe Montilla</p>
@@ -155,7 +155,7 @@
                 <p>📍 Oficina de Admisiones y Matrícula</p>
             </div>
 
-            <!-- ================================ VICERRECTORÍA ACADÉMICA ================================ -->
+            <!-- ================================ ACADEMIC VICE-RECTORATE ================================ -->
             <div class="card">
                 <h3>Vicerrectoría Académica</h3>
 
@@ -168,7 +168,7 @@
                 <p>📍 Vicerrectoría Académica y Directores</p>
             </div>
 
-            <!-- ================================ SECRETARÍA GENERAL ================================ -->
+            <!-- ================================ GENERAL SECRETARIAT ================================ -->
             <div class="card">
                 <h3>Secretaría General</h3>
 

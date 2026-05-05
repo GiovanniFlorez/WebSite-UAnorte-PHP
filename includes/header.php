@@ -36,11 +36,11 @@
                                 <li><a href="<?php echo BASE_URL; ?>pages/informacionInstitucional.php">Información Institucional</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/estructuraOrganizacional.php">Estructura Organizacional</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/directorio.php">Directorio</a></li>
-                                <li><a href="#">Normatividad</a></li>
-                                <li><a href="#">Derechos Pecuniarios</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/coming-soon.php">Normatividad</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/coming-soon.php">Derechos Pecuniarios</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/cienciaInnovacion.php">Ciencia e innovación</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/extension.php">Extensión</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>pages/bienestar.php">Bienestar</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/coming-soon.php">Bienestar</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/biblioteca.php">Biblioteca</a></li>
                             </ul>
                         </div>
@@ -58,7 +58,7 @@
                         <div class="submenu">
                             <ul>
                                 <li><a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14"  target="_blank" rel="noopener noreferrer">Aspirante</a></li>
-                                <li><a href="#">Inscripciones</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/informacion.php">Inscripciones</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/financiacion.php">Financiamiento y Becas</a></li>
                             </ul>
                         </div>
@@ -75,9 +75,9 @@
                         
                         <div class="submenu">
                             <ul>
-                                <li><a href="#">Pregrado</a></li>
-                                <li><a href="#">Posgrado</a></li>
-                                <li><a href="#">Educación Continua</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/pregrado.php">Pregrado</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/posgrado.php">Posgrado</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/coming-soon.php">Educación Continua</a></li>
                             </ul>
                         </div>
                     </li>
@@ -93,7 +93,7 @@
 
                         <div class="submenu">
                             <ul>
-                                <li><a href="<?php echo BASE_URL; ?>pages/PQRSF.php">PQRSF</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/coming-soon.php">PQRSF</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/canalesAtencion.php">Canales de Atención</a></li>
                                 <li><a href="https://appcerficados.uanorte.edu.co/" target="_blank" rel="noopener noreferrer">Certificados</a></li>
                             </ul>

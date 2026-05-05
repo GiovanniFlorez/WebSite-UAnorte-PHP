@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1%;
+}
+
+.programs{
+    margin-bottom: 3%;
+}
+
+.programs h1,
+.programs h3 {
+    text-align: center;
+}
+
+.programs h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 7% 0 10px 0;
+    color: #464646;
+}
+
+.programs h3 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #464646;
+}
+
+.imgGraduatePrograms {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 30px;
+}
+
+.imgGraduatePrograms a {
+    display: flex;
+    justify-content: center;
+}
+
+.imgGraduatePrograms img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 5%;
+}
+
+
+.imgGraduatePrograms img:hover { 
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

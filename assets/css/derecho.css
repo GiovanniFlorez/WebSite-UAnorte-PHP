@@ -1,0 +1,215 @@
+body, html {
+    margin: 0;
+    padding-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f6f8;
+    color: #464646;
+    overflow-x: hidden;
+}
+
+/* ================= HERO ================= */
+.hero {
+    background: linear-gradient(135deg, #0000ff, #32dbfd);
+    color: white;
+    padding: 80px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.hero-text {
+    max-width: 520px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
+
+.hero img {
+    width: 420px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* ================= BOTONES ================= */
+.btn {
+    padding: 13px 26px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #f1c232;
+    color: #000;
+}
+
+.btn-secondary {
+    background: #ffffff;
+    color: #0000ff;
+}
+
+.btn-light {
+    background: #ffffff;
+    color: #0000ff;
+}
+
+.btn-yellow {
+    background: #f1c232;
+    color: #000;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* ================= CARDS ================= */
+.cards {
+    margin-top: -60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 0 10%;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h4 {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0000ff;
+}
+
+/* ================= INFO ================= */
+.info {
+    display: flex;
+    gap: 50px;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+}
+
+.info-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+.info-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #0000ff;
+}
+
+.info-text p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.perfil {
+    flex: 1;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.perfil h3 {
+    margin-bottom: 15px;
+    color: #0000ff;
+}
+
+.perfil li {
+    margin-bottom: 10px;
+}
+
+/* ================= CTA ================= */
+.cta {
+    max-width: 1100px;
+    width: 90%;
+    margin: 80px auto;
+    border-radius: 20px;
+    padding: 70px 30px;
+    text-align: center;
+    background: linear-gradient(90deg, #0000ff, #32dbfd);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.cta h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    color: #f1f1f1;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .info {
+        padding: 50px 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .cta {
+        padding: 50px 20px;
+    }
+
+    .cta h2 {
+        font-size: 26px;
+    }
+}

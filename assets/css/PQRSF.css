@@ -176,6 +176,35 @@ textarea {
     cursor: not-allowed;
 }
 
+.doc-input {
+    display: flex;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.doc-input select {
+    width: 70px;
+    min-width: 70px;
+    max-width: 100px;
+    border: none;
+    border-right: 1px solid #e6e6e6;
+    padding: 11px 8px;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.doc-input input {
+    flex: 1;
+    border: none;
+    padding: 11px 12px;
+    font-size: 14px;
+    outline: none;
+}
 
 /* =========== RESPONSIVE =========== */
 

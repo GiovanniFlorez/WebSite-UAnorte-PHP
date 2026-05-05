@@ -35,7 +35,7 @@
 
                 <div class="hero-buttons">
                     <a href="#" class="btn primary">Conocer programas ➜</a>
-                    <a href="#" class="btn secondary">Más información</a>
+                    <a href="pages/informacion.php" class="btn secondary">Más información</a>
                 </div>
             </div>
         </section>
@@ -49,19 +49,19 @@
                 <h3>Formación profesional de calidad en ciencias sociales y humanas</h3>
 
                 <div class="imgUndergraduatePrograms">
-                    <a href="#">
+                    <a href="<?php echo BASE_URL; ?>pages/derecho.php">
                         <img src="assets/img/prospectoDerecho.png" alt="Prospecto Derecho">
                     </a>
 
-                    <a href="#">
+                    <a href="<?php echo BASE_URL; ?>pages/trabajoSocial.php">
                         <img src="assets/img/prospectoTrabajoSocial.png" alt="Prospecto Trabajo Social">
                     </a>
 
-                    <a href="#">
+                    <a href="<?php echo BASE_URL; ?>pages/comunicacionSocialMedios.php">
                         <img src="assets/img/prospectoComunicacionSocialMedios.png" alt="Prospecto Comunicación Social y Medios">
                     </a>
 
-                    <a href="#">
+                    <a href="<?php echo BASE_URL; ?>pages/Psicologia.php">
                         <img src="assets/img/prospectoPsicologia.png" alt="Prospecto Psicología">
                     </a>
                 </div>
@@ -73,11 +73,11 @@
                 <h3>Especializaciones para profundizar tu conocimiento y experiencia</h3>
 
                 <div class="imgGraduatePrograms">
-                    <a href="#">
+                    <a href="<?php echo BASE_URL; ?>pages/intervencionComunitaria.php">
                         <img src="assets/img/prospectoEspecializacionIntervencionComunitaria.png" alt="Prospecto Especialización En Intervención Comunitaria">
                     </a>
 
-                    <a href="#">
+                    <a href="<?php echo BASE_URL; ?>pages/derechoAdministrativo.php">
                         <img src="assets/img/prospectoEspecializacionDerechoAdministrativo.png" alt="Prospecto Especialización En Derecho Administrativo">
                     </a>
                 </div>

@@ -105,21 +105,24 @@
                             <input type="text" name="nombre" placeholder="Nombre" required>
 
                             <p class="pFormularioContacto">Tipo de Identidad:</p>
-                            <select name="tipoDocumento" required>
-                                <option value="">Seleccione un Tipo de Documento</option>
 
-                                <option value="Cédula de Ciudadanía">Cédula de Ciudadanía</option>
+                            <div class="doc-input">
+                                <select name="tipoDocumento" required>
+                                    <option value="cedulaCiudadania">C.C</option>
 
-                                <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                                    <option value="tarjetaIdentidad">T.I</option>
 
-                                <option value="Registro Civil de Nacimiento">Registro Civil de Nacimiento</option>
+                                    <option value="registroCivilNacimiento">R.C.N</option>
 
-                                <option value="Cédula de Extrangería">Cédula de Extrangería</option>
+                                    <option value="cedulaExtrangeria">C.E</option>
 
-                                <option value="Pasaporte">Pasaporte</option>
+                                    <option value="pasaporte">P</option>
 
-                                <option value="Otro">Otro</option>
-                            </select>
+                                    <option value="otro">Otro</option>
+                                </select>
+
+                                <input type="text" placeholder="Número de documento" required>
+                            </div>                
 
                             <p class="pFormularioContacto">Correo Electrónico:</p>
                             <input type="email" name="email" placeholder="Correo Electrónico" required>
@@ -128,13 +131,13 @@
                             <select name="cargo" required>
                                 <option value="">Seleccione un Cargo</option>
 
-                                <option value="Estudiante">Estudiante</option>
+                                <option value="estudiante">Estudiante</option>
 
-                                <option value="Docente">Docente</option>
+                                <option value="docente">Docente</option>
 
-                                <option value="Administrativo">Administrativo</option>
+                                <option value="administrativo">Administrativo</option>
 
-                                <option value="Otro">Otro</option>
+                                <option value="otro">Otro</option>
                             </select>
                         </div>
 
@@ -142,8 +145,14 @@
                             <p class="pFormularioContacto">Apellido:</p>
                             <input type="text" name="apellido" placeholder="Apellido" required>
 
-                            <p class="pFormularioContacto">Número de Documento de Identidad:</p>
-                            <input type="tel" name="documento" min="0" placeholder="Número de identidad" required>
+                            <p class="pFormularioContacto">Tipo de Persona:</p>
+                            <select name="tipoPersona" required>
+                                <option value="">Seleccione un Tipo de Persona</option>
+
+                                <option value="personaNatural">Persona Natural</option>
+
+                                <option value="personaJuridica">Persona Jurídica</option>
+                            </select>
 
                             <p class="pFormularioContacto">Teléfono:</p>
                             <input type="tel" min="0" name="telefono" placeholder="Número de teléfono" required>
@@ -152,15 +161,15 @@
                             <select name="selectCarreraInteres" required>
                                 <option value="">Seleccione un Tipo de PQRSF</option>
 
-                                <option value="Peticiones">Peticiones</option>
+                                <option value="peticiones">Peticiones</option>
 
-                                <option value="Quejas">Quejas</option>
+                                <option value="quejas">Quejas</option>
 
-                                <option value="Reclamos">Reclamos</option>
+                                <option value="reclamos">Reclamos</option>
 
-                                <option value="Sugerencias">Sugerencias</option>
+                                <option value="sugerencias">Sugerencias</option>
 
-                                <option value="Felicitaciones">Felicitaciones</option>
+                                <option value="felicitaciones">Felicitaciones</option>
                             </select>
                         </div>
                     </div>

@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1%;
+}
+
+.programs{
+    margin-bottom: 3%;
+}
+
+.programs h1,
+.programs h3 {
+    text-align: center;
+}
+
+.programs h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 7% 0 10px 0;
+    color: #464646;
+}
+
+.programs h3 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #464646;
+}
+
+.imgUndergraduatePrograms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.imgUndergraduatePrograms a {
+    display: flex;
+    justify-content: center;
+}
+
+.imgUndergraduatePrograms img {
+    width: 98%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.imgUndergraduatePrograms img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
