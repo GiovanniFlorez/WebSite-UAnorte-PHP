@@ -1,0 +1,177 @@
+body, html {
+    margin: 0;
+    padding-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    color: #464646;
+    overflow-x: hidden;
+}
+
+.hero {
+    background: #674ea7;
+    color: white;
+    padding: 80px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.hero-text {
+    max-width: 520px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
+
+.hero img {
+    width: 420px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.btn {
+    padding: 13px 26px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #f1c232;
+    font-weight: 700;
+    color: #464646;
+}
+
+.btn-secondary {
+    background: #ffffff;
+    font-weight: 700;
+    color: #464646;
+}
+
+.btn-light {
+    background: #ffffff;
+    color: #0000ff;
+}
+
+.btn-yellow {
+    background: #f1c232;
+    color: #000;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* ================= CARD ================= */
+
+.cards {
+    margin-top: -60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 0 10%;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.151);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h4 {
+    color: #464646;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #464646;
+}
+
+/* ================= INFO ================= */
+.info {
+    display: flex;
+    gap: 50px;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+}
+
+.info-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+.info-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #464646;
+}
+
+.info-text p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.perfil {
+    flex: 1;
+    background: #89b5f857;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.perfil h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #464646;
+}
+
+.perfil li {
+    margin-bottom: 10px;
+}
+
+
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .info {
+        padding: 50px 10%;
+    }
+}

@@ -113,6 +113,9 @@ p {
 }
 
 @media (max-width: 600px) {
+    body {
+        padding-top: 17%;
+    }
 
     .circle {
         width: 90px;

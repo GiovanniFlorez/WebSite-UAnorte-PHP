@@ -34,15 +34,15 @@
                         <img src="../assets/img/prospectoDerecho.png" alt="Derecho">
                     </a>
 
-                    <a href="#">
+                    <a href="<?php echo BASE_URL; ?>pages/trabajoSocial.php">
                         <img src="../assets/img/prospectoTrabajoSocial.png" alt="Trabajo Social">
                     </a>
 
-                    <a href="#">
+                    <a href="<?php echo BASE_URL; ?>pages/comunicacionSocialMedios.php">
                         <img src="../assets/img/prospectoComunicacionSocialMedios.png" alt="Comunicación Social y Medios">
                     </a>
 
-                    <a href="#">
+                    <a href="<?php echo BASE_URL; ?>pages/psicologia.php">
                         <img src="../assets/img/prospectoPsicologia.png" alt="Psicología">
                     </a>
                 </div> 

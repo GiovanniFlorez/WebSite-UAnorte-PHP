@@ -73,11 +73,11 @@
                 <h3>Especializaciones para profundizar tu conocimiento y experiencia</h3>
 
                 <div class="imgGraduatePrograms">
-                    <a href="<?php echo BASE_URL; ?>pages/intervencionComunitaria.php">
+                    <a href="<?php echo BASE_URL; ?>pages/EIC.php">
                         <img src="assets/img/prospectoEspecializacionIntervencionComunitaria.png" alt="Prospecto Especialización En Intervención Comunitaria">
                     </a>
 
-                    <a href="<?php echo BASE_URL; ?>pages/derechoAdministrativo.php">
+                    <a href="<?php echo BASE_URL; ?>pages/EDA.php">
                         <img src="assets/img/prospectoEspecializacionDerechoAdministrativo.png" alt="Prospecto Especialización En Derecho Administrativo">
                     </a>
                 </div>

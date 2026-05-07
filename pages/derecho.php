@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="../assets/css/header.css">
         <link rel="stylesheet" href="../assets/css/footer.css">
         <link rel="stylesheet" href="../assets/css/FAB.css">
+        <link rel="stylesheet" href="../assets/css/cta.css">
         <link rel="stylesheet" href="../assets/css/derecho.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
@@ -25,76 +26,79 @@
 <!-- =================================================== LEGAL =================================================== -->
         <section class="hero">
             <div class="hero-text">
-            <h1>Derecho</h1>
-            <p>
-                El programa de Derecho de UANORTE forma profesionales íntegros con sólidos conocimientos jurídicos,
-                comprometidos con la justicia social y la transformación de la sociedad.
-            </p>
+                <h1>Derecho</h1>
+                <p>
+                    El programa de Derecho de UANORTE forma profesionales íntegros con sólidos conocimientos jurídicos,
+                    comprometidos con la justicia social y la transformación de la sociedad. Nuestros estudiantes desarrollan 
+                    competencias para el ejercicio profesional ético y responsable del derecho.
+                </p>
 
-            <button class="btn btn-primary">Inscríbete aquí</button>
-            <button class="btn btn-secondary">Prospecto</button>
+                <p>
+                    Código SNIES 110347 - Resolución 0010384 del 11 de Junio del 2021
+                </p>
+
+                <a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14" target="_blank" rel="noopener noreferrer">
+                    <button class="btn btn-primary">Inscríbete aquí</button>
+                </a>
+                
+                <a href="../assets/pdf/PROSPECTOS  DER.pdf" target="_blank">
+                    <button class="btn btn-secondary">Prospecto</button>
+                </a>
             </div>
 
             <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f" alt="Derecho">
         </section>
 
-        <!-- CARDS -->
         <section class="cards">
             <div class="card">
-            <h4>Duración</h4>
-            <p>10 semestres</p>
+                <h4>Duración</h4>
+                <p>10 semestres</p>
             </div>
 
             <div class="card">
-            <h4>Modalidad</h4>
-            <p>Presencial</p>
+                <h4>Modalidad</h4>
+                <p>Presencial</p>
             </div>
 
             <div class="card">
-            <h4>Jornada</h4>
-            <p>Diurna</p>
+                <h4>Jornada</h4>
+                <p>Diurna/Nocturna</p>
             </div>
 
             <div class="card">
-            <h4>Código SNIES</h4>
-            <p>12345</p>
+                <h4>Creditos</h4>
+                <p>164</p>
             </div>
         </section>
 
         <section class="info">
             <div class="info-text">
-            <h2>¿Por qué estudiar Derecho en UANORTE?</h2>
-            <p>
-                En la Corporación Universitaria Autónoma del Norte te ofrecemos una formación de calidad
-                con docentes altamente calificados y una infraestructura moderna.
-            </p>
+                <h2>¿Por qué estudiar Derecho en UANORTE?</h2>
+                <p>
+                    En la Corporación Universitaria Autónoma del Norte te ofrecemos una formación de calidad
+                    con docentes altamente calificados y una infraestructura moderna.
+                </p>
 
-            <p>
-                Nuestro enfoque educativo combina la teoría con la práctica, permitiéndote adquirir
-                competencias necesarias para enfrentar el mundo laboral.
-            </p>
+                <p>
+                    Nuestro enfoque educativo combina la teoría con la práctica, permitiéndote adquirir
+                    competencias necesarias para enfrentar el mundo laboral.
+                </p>
             </div>
 
             <div class="perfil">
-            <h3>Perfil del Egresado</h3>
-            <ul>
-                <li>Profesional integral con sólidos conocimientos</li>
-                <li>Capacidad de liderazgo y trabajo en equipo</li>
-                <li>Compromiso social y ético</li>
-                <li>Habilidades de investigación e innovación</li>
-            </ul>
+                <h3>Perfil del Egresado</h3>
+                <ul>
+                    <li>Profesional integral con sólidos conocimientos</li>
+                    <li>Capacidad de liderazgo y trabajo en equipo</li>
+                    <li>Compromiso social y ético</li>
+                    <li>Habilidades de investigación e innovación</li>
+                </ul>
             </div>
         </section>
 
-        <section class="cta">
-        <h2>¿Listo para comenzar tu futuro?</h2>
-        <p>Únete a la comunidad UANORTE y transforma tu vida</p>
-
-        <div class="cta-buttons">
-            <a href="#" class="btn btn-light">Solicitar información</a>
-            <a href="#" class="btn btn-yellow">Inscríbete ahora</a>
+        <div>
+            <?php include '../includes/cta.php'; ?>
         </div>
-        </section>
 
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
