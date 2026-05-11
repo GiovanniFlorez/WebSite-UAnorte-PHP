@@ -43,7 +43,7 @@
             <div class="card">
                 <h3>¿Necesitas información?</h3>
                 <p>Si necesitas acceder a esta información de forma urgente, puedes contactarnos directamente.</p>
-                <p><i class="fa-solid fa-phone"></i> +57 300 123 4567 | <i class="fa-solid fa-envelope"></i> info@uanorte.edu.co</p>
+                <p><i class="fa-solid fa-phone"></i> +57 317 256 6612 | <i class="fa-solid fa-envelope"></i> admisiones@uanorte.edu.co</p>
             </div>
 
         </div>

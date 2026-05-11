@@ -97,7 +97,7 @@
         <div class="formulario">
             <h1>Formulario PQRSF</h1>
 
-            <form>
+            <form action="mail.php" method="POST" enctype="multipart/form-data">
                 <div class="divFormulario">
                     <div class="formularioDeInscripcion">
                         <div class="columna3">
@@ -121,7 +121,7 @@
                                     <option value="otro">Otro</option>
                                 </select>
 
-                                <input type="text" placeholder="Número de documento" required>
+                                <input type="text" name="documento" placeholder="Número de documento" required>
                             </div>                
 
                             <p class="pFormularioContacto">Correo Electrónico:</p>

@@ -93,7 +93,7 @@
 
                         <div class="submenu">
                             <ul>
-                                <li><a href="<?php echo BASE_URL; ?>pages/coming-soon.php">PQRSF</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/PQRSF.php">PQRSF</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/canalesAtencion.php">Canales de Atención</a></li>
                                 <li><a href="https://appcerficados.uanorte.edu.co/" target="_blank" rel="noopener noreferrer">Certificados</a></li>
                             </ul>
