@@ -13,7 +13,7 @@ try {
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'infraestructura@uanorte.edu.co';
-    $mail->Password = 'infra.2026';
+    $mail->Password = 'fpso jbtk ylmv pnfd';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
