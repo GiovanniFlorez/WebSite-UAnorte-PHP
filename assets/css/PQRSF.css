@@ -209,6 +209,7 @@ textarea {
 /* =========== RESPONSIVE =========== */
 
 @media (max-width: 992px) {
+
     .formularioDeInscripcion {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -250,6 +251,10 @@ textarea {
 }
 
 @media (max-width: 600px) {
+
+    html, body {
+        padding-top: 10%;
+    }
     .divFormulario {
         width: 95%;
         padding: 15px;

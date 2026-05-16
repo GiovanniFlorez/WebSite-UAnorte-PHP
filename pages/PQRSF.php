@@ -97,7 +97,7 @@
         <div class="formulario">
             <h1>Formulario PQRSF</h1>
 
-            <form action="mail.php" method="POST" enctype="multipart/form-data">
+            <form class="formularioAjax" action="mailPQRSF.php" method="POST" enctype="multipart/form-data">
                 <div class="divFormulario">
                     <div class="formularioDeInscripcion">
                         <div class="columna3">
@@ -108,20 +108,20 @@
 
                             <div class="doc-input">
                                 <select name="tipoDocumento" required>
-                                    <option value="cedulaCiudadania">C.C</option>
+                                    <option value="Cédula Ciudadania">C.C</option>
 
-                                    <option value="tarjetaIdentidad">T.I</option>
+                                    <option value="Tarjeta Identidad">T.I</option>
 
-                                    <option value="registroCivilNacimiento">R.C.N</option>
+                                    <option value="Registro Civil de Nacimiento">R.C.N</option>
 
-                                    <option value="cedulaExtrangeria">C.E</option>
+                                    <option value="Cédula Extrangeria">C.E</option>
 
-                                    <option value="pasaporte">P</option>
+                                    <option value="Pasaporte">P</option>
 
-                                    <option value="otro">Otro</option>
+                                    <option value="Otro">Otro</option>
                                 </select>
 
-                                <input type="text" name="documento" placeholder="Número de documento" required>
+                                <input type="number" name="documento" placeholder="Número de documento" required>
                             </div>                
 
                             <p class="pFormularioContacto">Correo Electrónico:</p>
@@ -149,9 +149,9 @@
                             <select name="tipoPersona" required>
                                 <option value="">Seleccione un Tipo de Persona</option>
 
-                                <option value="personaNatural">Persona Natural</option>
+                                <option value="Persona Natural">Persona Natural</option>
 
-                                <option value="personaJuridica">Persona Jurídica</option>
+                                <option value="Persona Juridica">Persona Jurídica</option>
                             </select>
 
                             <p class="pFormularioContacto">Teléfono:</p>
@@ -228,5 +228,7 @@
         <script src="../assets/js/preloader.js"></script>
         <script src="../assets/js/FAB.js"></script>
         <script src="../assets/js/jsCheckBox.js"></script>
+        <script src="../assets/js/SweetAlert.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </body>
 </html>

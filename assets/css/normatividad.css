@@ -1,0 +1,177 @@
+body, html {
+    margin: 0;
+    padding-top: 3%;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.hero{
+    background:linear-gradient(90deg,#0000ff,#32dbfd);
+    color:white;
+    padding:60px 70px;
+}
+
+.hero h1{
+    font-size:64px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    max-width:700px;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:50px auto;
+}
+
+.card{
+    background:#eef5fa;
+    border-radius:20px;
+    padding:30px;
+    margin-bottom:35px;
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.274);
+}
+
+.card-header{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.icon-box{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:20px;
+}
+
+.blue{
+    background:#0000ff;
+}
+
+.cyan{
+    background:#32dbfd;
+}
+
+.purple{
+    background:#674ea7;
+}
+
+.card-title{
+    font-size:42px;
+    font-weight:700;
+    color:#464646;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.doc-item{
+    background:white;
+    border-radius:14px;
+    padding:18px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:18px;
+    border:1px solid #e6e6e6;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.doc-item:hover{
+    transform:translateY(-2px);
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    border-color:#0000ff;
+}
+
+.doc-left{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+.doc-icon{
+    width:42px;
+    height:42px;
+    background:#ffe9ee;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: #fa4156;
+    font-size:18px;
+}
+
+.doc-title{
+    font-size:20px;
+    font-weight:500;
+}
+
+.download{
+    color:#464646;
+    font-size:20px;
+    transition:0.3s;
+}
+
+.doc-item:hover .download{
+    color:#0000ff;
+}
+
+@media(max-width:900px){
+    body, html {
+    padding-top: 7%;
+    }
+
+    .hero{
+        padding:40px 30px;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .card-title{
+        font-size:32px;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:600px){
+    body, html {
+    padding-top: 13%;
+    }
+    
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .doc-title{
+        font-size:16px;
+    }
+}

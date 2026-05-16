@@ -9,10 +9,10 @@
         <link rel="stylesheet" href="assets/css/preloader.css">
         <link rel="stylesheet" href="assets/css/header.css">
         <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/FAB.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;1000;&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/FAB.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;1000;&display=swap" rel="stylesheet"> 
     </head>
     <body>
 <!-- =================================================== INCLUDES =================================================== -->
@@ -34,7 +34,7 @@
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#" class="btn primary">Conocer programas ➜</a>
+                    <a href="pages/programas.php" class="btn primary">Conocer programas ➜</a>
                     <a href="pages/informacion.php" class="btn secondary">Más información</a>
                 </div>
             </div>

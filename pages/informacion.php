@@ -24,7 +24,7 @@
         <!-- ========================================== CONTENIDO ========================================== -->
         <div class="inscripcion">
             <div class="imgInscripcion">
-                <img class="img1Inscripción" src="https://uanorte.edu.co/web/wp-content/uploads/2024/09/60.png" alt="">
+                <img class="imgInscripcion" src="https://uanorte.edu.co/web/wp-content/uploads/2024/09/60.png" alt="">
 
                 <a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14" target="_blank" rel="noopener noreferrer">
                     <img class="imgLinkInscripcion" src="https://uanorte.edu.co/web/wp-content/uploads/2024/09/Botones-Pagina-Web-4-e1726614944147.png" alt="">
@@ -36,7 +36,7 @@
                     Contáctanos para más información
                 </div>
                 
-                <form method="POST">
+                <form class="formularioAjax" action="mailInformation.php" method="POST" enctype="multipart/form-data">
 
                     <div class="formularioContacto">
                         <div class="columna3">
@@ -64,7 +64,7 @@
 
                         <div class="columna3">
                         <p class="pFormularioContacto">Número de Documento de Identidad:</p>
-                        <input type="tel" min="0" name="documento" placeholder="Número de identidad" required>
+                        <input type="number" min="0" name="documento" placeholder="Número de identidad" required>
                             
                         <p class="pFormularioContacto">Teléfono:</p>
                         <input type="tel" name="telefono" placeholder="Número de teléfono" required>
@@ -99,10 +99,8 @@
                     <button class="botonEnviar" id="botonEnviar" disabled>ENVIAR</button>
 
                     <hr class="hrFormularioContacto">
-                    </form>  
-                                
+                </form>         
             </div>
-
         </div>
 
         <!-- ========================================== FOOTER ========================================== -->
@@ -115,5 +113,7 @@
         <script src="../assets/js/preloader.js"></script>
         <script src="../assets/js/FAB.js"></script>
         <script src="../assets/js/jsCheckBox.js"></script>
+        <script src="../assets/js/SweetAlert.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </body>
 </html>

@@ -16,7 +16,7 @@ body{
 
 :root {
   --azul-principal: #0000FF;
-  --azul-claro: #32DBFD;
+  --rojo: #fa4156;
   --gris-principal: #464646;
   --blanco: #ffffff;
   --fondo: #f6f8fc;
@@ -74,7 +74,7 @@ body{
 }
 
 .card a {
-  color: var(--azul-claro);
+  color: var(--rojo);
   font-weight: 500;
   text-decoration: none;
   overflow-wrap: anywhere;

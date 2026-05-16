@@ -36,7 +36,7 @@
                                 <li><a href="<?php echo BASE_URL; ?>pages/informacionInstitucional.php">Información Institucional</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/estructuraOrganizacional.php">Estructura Organizacional</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/directorio.php">Directorio</a></li>
-                                <li><a href="<?php echo BASE_URL; ?>pages/coming-soon.php">Normatividad</a></li>
+                                <li><a href="<?php echo BASE_URL; ?>pages/normatividad.php">Normatividad</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/coming-soon.php">Derechos Pecuniarios</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/cienciaInnovacion.php">Ciencia e innovación</a></li>
                                 <li><a href="<?php echo BASE_URL; ?>pages/extension.php">Extensión</a></li>

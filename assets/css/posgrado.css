@@ -5,8 +5,13 @@ html, body {
     padding-top: 1%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .programs{
     margin-bottom: 3%;
+    padding: 0 20px;
 }
 
 .programs h1,
@@ -24,20 +29,23 @@ html, body {
 .programs h3 {
     font-size: 18px;
     font-weight: 100;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #464646;
 }
 
 .imgGraduatePrograms {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .imgGraduatePrograms a {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .imgGraduatePrograms img {
@@ -45,10 +53,78 @@ html, body {
     max-width: 320px;
     height: auto;
     border-radius: 5%;
+    transition: transform 0.3s ease;
 }
-
 
 .imgGraduatePrograms img:hover { 
     transform: scale(1.05);
-    transition: transform 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+
+    html, body {
+        padding-top: 6%;
+    }
+
+    .programs {
+        padding: 0 15px;
+    }
+
+    .programs h1 {
+        font-size: 30px;
+        margin-top: 10%;
+    }
+
+    .programs h3 {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .imgGraduatePrograms {
+        gap: 20px;
+    }
+
+    .imgGraduatePrograms img {
+        max-width: 100%;
+    }
+}
+
+/* =============== RESPONSIVE =============== */
+@media (max-width: 720px) {
+
+    html, body {
+        padding-top: 14%;
+    }
+
+    .programs {
+        padding: 0 10px;
+    }
+
+    .programs h1 {
+        font-size: 26px;
+        margin-top: 18%;
+        line-height: 1.2;
+    }
+
+    .programs h3 {
+        font-size: 15px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .imgGraduatePrograms {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .imgGraduatePrograms a {
+        width: 100%;
+    }
+
+    .imgGraduatePrograms img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 20px;
+    }
 }
