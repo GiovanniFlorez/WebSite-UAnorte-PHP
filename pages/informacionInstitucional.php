@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Informacíon Institucional - UAnorte</title>
-        <link rel="icon" type="image/png" href="../assets/img/iconUAnorte.png">
-        <link rel="stylesheet" href="../assets/css/preloader.css">
-        <link rel="stylesheet" href="../assets/css/header.css">
-        <link rel="stylesheet" href="../assets/css/footer.css">
-        <link rel="stylesheet" href="../assets/css/FAB.css">
-        <link rel="stylesheet" href="../assets/css/informacionInstitucional.css">
+        <link rel="icon" type="image/png" href="/assets/img/iconUAnorte.png">
+        <link rel="stylesheet" href="/assets/css/preloader.css">
+        <link rel="stylesheet" href="/assets/css/header.css">
+        <link rel="stylesheet" href="/assets/css/footer.css">
+        <link rel="stylesheet" href="/assets/css/FAB.css">
+        <link rel="stylesheet" href="/assets/css/informacionInstitucional.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
@@ -17,10 +17,10 @@
     </head>
     <body>
 <!-- =================================================== INCLUDES =================================================== -->
-        <?php include '../includes/preloader.php'; ?>
-        <?php require_once '../includes/config.php'; ?>
-        <?php include '../includes/header.php'; ?>
-        <?php include '../includes/FAB.php'; ?>
+        <?php include '/includes/preloader.php'; ?>
+        <?php require_once '/includes/config.php'; ?>
+        <?php include '/includes/header.php'; ?>
+        <?php include '/includes/FAB.php'; ?>
     
 <!-- =================================================== WHO ARE WE? =================================================== -->
         <div class="superWhoAreWe">
@@ -72,13 +72,13 @@
                 </div>
 
                 <div class="imgWhoAreWeUAnorte">
-                    <img src="../assets/img/quienesSomos.png" alt="Quienes Somos de UAnorte">
-                    <img src="../assets/img/quienesSomos2.png" alt="Quienes Somos de UAnorte">
+                    <img src="/assets/img/quienesSomos.png" alt="Quienes Somos de UAnorte">
+                    <img src="/assets/img/quienesSomos2.png" alt="Quienes Somos de UAnorte">
                 </div>
             </div>
 
             <div class="imgDevenirHistorico">
-                <img src="../assets/img/devenirHistorico.png" alt="Devenir Historico">
+                <img src="/assets/img/devenirHistorico.png" alt="Devenir Historico">
             </div>
         </div>
 
@@ -127,37 +127,37 @@
 
                     <!-- ===================== EQUITY ===================== -->
                     <div class="swiper-slide">
-                        <img src="../assets/img/ValorEquidad.png" alt="valor Equidad de UAnorte">
+                        <img src="/assets/img/ValorEquidad.png" alt="valor Equidad de UAnorte">
                     </div>
 
                     <!-- ===================== RESPECT ===================== -->
                     <div class="swiper-slide">
-                        <img src="../assets/img/ValorRespeto.png" alt="valor Respeto de UAnorte">
+                        <img src="/assets/img/ValorRespeto.png" alt="valor Respeto de UAnorte">
                     </div>
 
                     <!-- ===================== AUTONOMY ===================== -->
                     <div class="swiper-slide">
-                        <img src="../assets/img/ValorAutonomia.png" alt="valor Autonomía de UAnorte">
+                        <img src="/assets/img/ValorAutonomia.png" alt="valor Autonomía de UAnorte">
                     </div>
 
                     <!-- ===================== SENSE OF BELONGING ===================== -->
                     <div class="swiper-slide">
-                        <img src="../assets/img/ValorSentidoPermanencia.png" alt="valor Sentido de pertenencia de UAnorte">
+                        <img src="/assets/img/ValorSentidoPermanencia.png" alt="valor Sentido de pertenencia de UAnorte">
                     </div>
 
                     <!-- ===================== LEADERSHIP ===================== -->
                     <div class="swiper-slide">
-                        <img src="../assets/img/ValorLiderazgo.png" alt="valor Liderazgo de UAnorte">
+                        <img src="/assets/img/ValorLiderazgo.png" alt="valor Liderazgo de UAnorte">
                     </div>
 
                     <!-- ===================== INNOVATION ===================== -->
                     <div class="swiper-slide">
-                        <img src="../assets/img/ValorInnovación.png" alt="valor Innovación de UAnorte">
+                        <img src="/assets/img/ValorInnovación.png" alt="valor Innovación de UAnorte">
                     </div>
 
                     <!-- ===================== SOCIAL RESPONSIBILITY ===================== -->
                     <div class="swiper-slide">
-                        <img src="../assets/img/valorResponsabilidadSocial.png" alt="valor Responsabilidad social de UAnorte">
+                        <img src="/assets/img/valorResponsabilidadSocial.png" alt="valor Responsabilidad social de UAnorte">
                     </div>
 
                 </div>
@@ -179,7 +179,7 @@
             <h1>Campus</h1>
 
             <div class="campusColumns">
-                <img src="../assets/img/campus.png" alt="Campus UAnorte">
+                <img src="/assets/img/campus.png" alt="Campus UAnorte">
                 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.1111509784837!2d-72.50349862594403!3d7.883438205869671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66457d96f194a5%3A0x423003d68d040b48!2sCorporaci%C3%B3n%20Universitaria%20Aut%C3%B3noma%20del%20Norte%20(UANORTE)!5e0!3m2!1ses-419!2sco!4v1769204603424!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -187,13 +187,13 @@
 
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
-            <?php include '../includes/footer.php'; ?>
+            <?php include '/includes/footer.php'; ?>
         </div>
 <!-- =================================================== SCRIPTS =================================================== -->
-        <script src="../assets/js/header.js"></script>
-        <script src="../assets/js/preloader.js"></script>
-        <script src="../assets/js/FAB.js"></script>
-        <script src="../assets/js/informacionInstitucional.js"></script>
+        <script src="/assets/js/header.js"></script>
+        <script src="/assets/js/preloader.js"></script>
+        <script src="/assets/js/FAB.js"></script>
+        <script src="/assets/js/informacionInstitucional.js"></script>
         <!-- Swiper JS -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     </body>

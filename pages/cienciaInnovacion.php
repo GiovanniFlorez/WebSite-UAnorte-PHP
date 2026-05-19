@@ -3,29 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="../assets/img/iconUAnorte.png">
+        <link rel="icon" type="image/png" href="/assets/img/iconUAnorte.png">
         <title>Ciencia e Innovación - UAnorte</title>
-        <link rel="stylesheet" href="../assets/css/preloader.css">
-        <link rel="stylesheet" href="../assets/css/header.css">
-        <link rel="stylesheet" href="../assets/css/footer.css">
-        <link rel="stylesheet" href="../assets/css/FAB.css">
-        <link rel="stylesheet" href="../assets/css/cienciaInnovacion.css">
+        <link rel="stylesheet" href="/assets/css/preloader.css">
+        <link rel="stylesheet" href="/assets/css/header.css">
+        <link rel="stylesheet" href="/assets/css/footer.css">
+        <link rel="stylesheet" href="/assets/css/FAB.css">
+        <link rel="stylesheet" href="/assets/css/cienciaInnovacion.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;1000;&display=swap" rel="stylesheet">
     </head>
     <body>
 <!-- =================================================== INCLUDES =================================================== -->
-        <?php include '../includes/preloader.php'; ?>
-        <?php require_once '../includes/config.php'; ?>
-        <?php include '../includes/header.php'; ?>
-        <?php include '../includes/FAB.php'; ?>
+        <?php include '/includes/preloader.php'; ?>
+        <?php require_once '/includes/config.php'; ?>
+        <?php include '/includes/header.php'; ?>
+        <?php include '/includes/FAB.php'; ?>
 
 <!-- =================================================== SCIENCE AND INNOVATION =================================================== -->
     <!-- ==================================== ROW 1 ==================================== -->
         <div class="columns">
             <div class="columnImg">
-                <img src="../assets/img/investigacionUAnorte.png" class="imgInvestigation" alt="imgInvestigation">
+                <img src="/assets/img/investigacionUAnorte.png" class="imgInvestigation" alt="imgInvestigation">
             </div>
 
             <div class="columnText">
@@ -143,7 +143,7 @@
             </div>
 
             <div class="columnImg" id="imgRow2">
-                <img src="../assets/img/politicaInvestigacionInstitucional.png" class="imgInvestigation" alt="imgInvestigation">
+                <img src="/assets/img/politicaInvestigacionInstitucional.png" class="imgInvestigation" alt="imgInvestigation">
             </div>
         </div>
         
@@ -184,14 +184,14 @@
             </div>
 
             <div class="columnImg">
-                <img src="../assets/img/gruposInvestigacion.png" class="imgInvestigation" alt="imgInvestigation">
+                <img src="/assets/img/gruposInvestigacion.png" class="imgInvestigation" alt="imgInvestigation">
             </div>
         </div>
 
         <!-- ==================================== ROW 3 ==================================== -->
         <div class="columns">
             <div class="columnImg">
-                <img src="../assets/img/TRSDERCSM.png" class="imgInvestigation" alt="imgInvestigation">
+                <img src="/assets/img/TRSDERCSM.png" class="imgInvestigation" alt="imgInvestigation">
             </div>
 
             <div class="columnText">
@@ -200,7 +200,7 @@
 
                 <div class="miniColums">
                     <div class="miniColumnsImg">
-                        <img src="../assets/img/fase1.png" class="imgFase" alt="imgFase1">
+                        <img src="/assets/img/fase1.png" class="imgFase" alt="imgFase1">
                     </div>
 
                     <div class="miniColumnsText">
@@ -216,7 +216,7 @@
 
                 <div class="miniColums">
                     <div class="miniColumnsImg">
-                        <img src="../assets/img/fase2.png" class="imgFase" alt="imgFase2">
+                        <img src="/assets/img/fase2.png" class="imgFase" alt="imgFase2">
                     </div>
 
                     <div class="miniColumnsText">
@@ -232,7 +232,7 @@
 
                 <div class="miniColums">
                     <div class="miniColumnsImg">
-                        <img src="../assets/img/fase3.png" class="imgFase" alt="imgFase3">
+                        <img src="/assets/img/fase3.png" class="imgFase" alt="imgFase3">
                     </div>
 
                     <div class="miniColumnsText">
@@ -256,12 +256,12 @@
 
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
-            <?php include '../includes/footer.php'; ?>
+            <?php include '/includes/footer.php'; ?>
         </div>
 <!-- =================================================== SCRIPTS =================================================== -->
-        <script src="../assets/js/cienciaInnovacion.js"></script>        
-        <script src="../assets/js/header.js"></script>
-        <script src="../assets/js/preloader.js"></script>
-        <script src="../assets/js/FAB.js"></script>
+        <script src="/assets/js/cienciaInnovacion.js"></script>        
+        <script src="/assets/js/header.js"></script>
+        <script src="/assets/js/preloader.js"></script>
+        <script src="/assets/js/FAB.js"></script>
     </body>
 </html>

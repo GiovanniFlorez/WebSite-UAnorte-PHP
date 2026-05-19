@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="../assets/img/iconUAnorte.png">
+        <link rel="icon" type="image/png" href="/assets/img/iconUAnorte.png">
         <title>Especialización En Derecho Administrativo - UAnorte</title>
-        <link rel="stylesheet" href="../assets/css/preloader.css">
-        <link rel="stylesheet" href="../assets/css/header.css">
-        <link rel="stylesheet" href="../assets/css/footer.css">
-        <link rel="stylesheet" href="../assets/css/FAB.css">
-        <link rel="stylesheet" href="../assets/css/cta.css">
-        <link rel="stylesheet" href="../assets/css/EDA.css">
+        <link rel="stylesheet" href="/assets/css/preloader.css">
+        <link rel="stylesheet" href="/assets/css/header.css">
+        <link rel="stylesheet" href="/assets/css/footer.css">
+        <link rel="stylesheet" href="/assets/css/FAB.css">
+        <link rel="stylesheet" href="/assets/css/cta.css">
+        <link rel="stylesheet" href="/assets/css/EDA.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;1000;&display=swap" rel="stylesheet">
@@ -18,15 +18,15 @@
 
     <body>
 <!-- =================================================== INCLUDES =================================================== -->
-        <?php include '../includes/preloader.php'; ?>
-        <?php require_once '../includes/config.php'; ?>
-        <?php include '../includes/header.php'; ?>
-        <?php include '../includes/FAB.php'; ?>
+        <?php include '/includes/preloader.php'; ?>
+        <?php require_once '/includes/config.php'; ?>
+        <?php include '/includes/header.php'; ?>
+        <?php include '/includes/FAB.php'; ?>
 
 <!-- =================================================== LEGAL =================================================== -->
         <section class="hero">
             <div class="hero-text">
-                <h1>Especialización En Derecho Administrativo</h1>
+                <h1>Especialización En Derecho Adminisatrativo</h1>
                 <p>
                     La Especialización en Derecho Administrativo de UANORTE forma profesionales especializados 
                     en la normatividad que regula la actividad estatal. Desarrollamos competencias para el 
@@ -42,12 +42,12 @@
                     <button class="btn btn-primary">Inscríbete aquí</button>
                 </a>
                 
-                <a href="../assets/pdf/PROSPECTOS EDA.pdf" target="_blank">
+                <a href="/assets/pdf/PROSPECTOS EDA.pdf" target="_blank">
                     <button class="btn btn-secondary">Prospecto</button>
                 </a>
             </div>
 
-            <img src="../assets/img/EDA.jpg" alt="Derecho">
+            <img src="/assets/img/EDA.jpg" alt="Derecho">
         </section>
 
         <section class="cards">
@@ -98,17 +98,17 @@
         </section>
 
         <div>
-            <?php include '../includes/cta.php'; ?>
+            <?php include '/includes/cta.php'; ?>
         </div>
 
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
-            <?php include '../includes/footer.php'; ?>
+            <?php include '/includes/footer.php'; ?>
         </div>
 
 <!-- =================================================== SCRIPTS =================================================== -->
-        <script src="../assets/js/header.js"></script>
-        <script src="../assets/js/preloader.js"></script>
-        <script src="../assets/js/FAB.js"></script>
+        <script src="/assets/js/header.js"></script>
+        <script src="/assets/js/preloader.js"></script>
+        <script src="/assets/js/FAB.js"></script>
     </body>
 </html>

@@ -4,22 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Normatividad - UAnorte</title>
-        <link rel="icon" type="image/png" href="../assets/img/iconUAnorte.png">
-        <link rel="stylesheet" href="../assets/css/preloader.css">
-        <link rel="stylesheet" href="../assets/css/header.css">
-        <link rel="stylesheet" href="../assets/css/footer.css">
-        <link rel="stylesheet" href="../assets/css/FAB.css">
-        <link rel="stylesheet" href="../assets/css/normatividad.css">
+        <link rel="icon" type="image/png" href="/assets/img/iconUAnorte.png">
+        <link rel="stylesheet" href="/assets/css/preloader.css">
+        <link rel="stylesheet" href="/assets/css/header.css">
+        <link rel="stylesheet" href="/assets/css/footer.css">
+        <link rel="stylesheet" href="/assets/css/FAB.css">
+        <link rel="stylesheet" href="/assets/css/normatividad.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;1000;&display=swap" rel="stylesheet">
     </head>
     <body>
 <!-- =================================================== INCLUDES =================================================== -->
-        <?php include '../includes/preloader.php'; ?>
-        <?php require_once '../includes/config.php'; ?>
-        <?php include '../includes/header.php'; ?>
-        <?php include '../includes/FAB.php'; ?>
+        <?php include '/includes/preloader.php'; ?>
+        <?php require_once '/includes/config.php'; ?>
+        <?php include '/includes/header.php'; ?>
+        <?php include '/includes/FAB.php'; ?>
 
 <!-- =================================================== HERO =================================================== -->
     <section class="hero">
@@ -42,7 +42,7 @@
                 <h2 class="card-title">Estatutos</h2>
             </div>
 
-            <a href="../assets/pdf/Estatutos-UAnorte.pdf" target="_blank">
+            <a href="/assets/pdf/Estatutos-UAnorte.pdf" target="_blank">
                 <div class="doc-item">
                     <div class="doc-left">
                         <div class="doc-icon">
@@ -71,7 +71,7 @@
                     <h2 class="card-title">Reglamentos</h2>
                 </div>
 
-                <a href="../assets/pdf/Reglamento-Estudiantil-UAnorte.pdf" target="_blank">
+                <a href="/assets/pdf/Reglamento-Estudiantil-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -85,7 +85,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Reglamento-Docentes-UAnorte.pdf" target="_blank">
+                <a href="/assets/pdf/Reglamento-Docentes-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -99,7 +99,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Reglamento-de-Transferencias.pdf" target="_blank">
+                <a href="/assets/pdf/Reglamento-de-Transferencias.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -113,7 +113,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Reglamento-de-Becas-y-Descuentos.pdf" target="_blank">
+                <a href="/assets/pdf/Reglamento-de-Becas-y-Descuentos.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -127,7 +127,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Protocolo-Pevencion-A-D-basada-en-genero.pdf" target="_blank">
+                <a href="/assets/pdf/Protocolo-Pevencion-A-D-basada-en-genero.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -152,7 +152,7 @@
                     <h2 class="card-title">Políticas</h2>
                 </div>
 
-                <a href="../assets/pdf/Politica-de-Tratamiento-de-Datos-Personales-UAnorte-.pdf" target="_blank">
+                <a href="/assets/pdf/Politica-de-Tratamiento-de-Datos-Personales-UAnorte-.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -168,7 +168,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Politica-Institucional-de-Autoevaluacion-UAnorte.pdf" target="_blank">
+                <a href="/assets/pdf/Politica-Institucional-de-Autoevaluacion-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -184,7 +184,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Politica-Academica-UANORTE.pdf" target="_blank">
+                <a href="/assets/pdf/Politica-Academica-UANORTE.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -200,7 +200,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Politica-de-Extension-y-Proyeccion-Social-UAnorte.pdf" target="_blank">
+                <a href="/assets/pdf/Politica-de-Extension-y-Proyeccion-Social-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -216,7 +216,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Politica-de-Investigacion-UAnorte.pdf" target="_blank">
+                <a href="/assets/pdf/Politica-de-Investigacion-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -232,7 +232,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Politica-Bienestar-Univesitario-UANORTE.pdf" target="_blank">
+                <a href="/assets/pdf/Politica-Bienestar-Univesitario-UANORTE.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -248,7 +248,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Politica-de-Matenimiento-de-Infraestructura-UAnorte.pdf" target="_blank">
+                <a href="/assets/pdf/Politica-de-Matenimiento-de-Infraestructura-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -264,7 +264,7 @@
                     </div>
                 </a>
 
-                <a href="../assets/pdf/Politica-de-Gestion-de-la-informacion-UAnorte.pdf" target="_blank">
+                <a href="/assets/pdf/Politica-de-Gestion-de-la-informacion-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -285,12 +285,12 @@
 
     <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
-            <?php include '../includes/footer.php'; ?>
+            <?php include '/includes/footer.php'; ?>
         </div>
 <!-- =================================================== SCRIPTS =================================================== -->
-        <script src="../assets/js/header.js"></script>
-        <script src="../assets/js/preloader.js"></script>
-        <script src="../assets/js/FAB.js"></script>
-        <script src="../assets/js/jsCheckBox.js"></script>
+        <script src="/assets/js/header.js"></script>
+        <script src="/assets/js/preloader.js"></script>
+        <script src="/assets/js/FAB.js"></script>
+        <script src="/assets/js/jsCheckBox.js"></script>
     </body>
 </html>

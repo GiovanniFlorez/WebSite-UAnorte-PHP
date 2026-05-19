@@ -3,30 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="../assets/img/iconUAnorte.png">
+        <link rel="icon" type="image/png" href="/assets/img/iconUAnorte.png">
         <title>Extensión - UAnorte</title>
-        <link rel="stylesheet" href="../assets/css/preloader.css">
-        <link rel="stylesheet" href="../assets/css/header.css">
-        <link rel="stylesheet" href="../assets/css/footer.css">
-        <link rel="stylesheet" href="../assets/css/FAB.css">
-        <link rel="stylesheet" href="../assets/css/extension.css">
+        <link rel="stylesheet" href="/assets/css/preloader.css">
+        <link rel="stylesheet" href="/assets/css/header.css">
+        <link rel="stylesheet" href="/assets/css/footer.css">
+        <link rel="stylesheet" href="/assets/css/FAB.css">
+        <link rel="stylesheet" href="/assets/css/extension.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;1000;&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- =================================================== INCLUDES =================================================== -->
-        <?php include '../includes/preloader.php'; ?>
-        <?php require_once '../includes/config.php'; ?>
-        <?php include '../includes/header.php'; ?>
-        <?php include '../includes/FAB.php'; ?>
+        <?php include '/includes/preloader.php'; ?>
+        <?php require_once '/includes/config.php'; ?>
+        <?php include '/includes/header.php'; ?>
+        <?php include '/includes/FAB.php'; ?>
 
         <!-- =================================================== EXTENSION =================================================== -->
         <section class="extension">
             <!-- =================================================== ROW 1 =================================================== -->
             <div class="columns">
                 <div class="columnImg">
-                    <img src="../assets/img/extensionPolitica.png" class="imgExtension" alt="imgExtension">
+                    <img src="/assets/img/extensionPolitica.png" class="imgExtension" alt="imgExtension">
                 </div>
 
                 <div class="columnText">
@@ -93,7 +93,7 @@
                 </div>
 
                 <div class="columnImg" id="imgRow2">
-                    <img src="../assets/img/extensionServiciosExternos.png" class="imgExtension" alt="imgExtension">
+                    <img src="/assets/img/extensionServiciosExternos.png" class="imgExtension" alt="imgExtension">
                 </div>
             </div>
 
@@ -155,7 +155,7 @@
                 </div>
 
                 <div class="columnImg" id="imgRow2">
-                    <img src="../assets/img/gestionServicioSocial.png" class="imgExtension" alt="imgExtension">
+                    <img src="/assets/img/gestionServicioSocial.png" class="imgExtension" alt="imgExtension">
                 </div>
             </div>
         </section>
@@ -225,7 +225,7 @@
             <div class="servicesContainer">
 
                 <div class="serviceCard">
-                    <img src="../assets/img/derechoPublico.png" alt="Derecho Público">
+                    <img src="/assets/img/derechoPublico.png" alt="Derecho Público">
                     <div class="overlay">
                         <h3>Derecho Público</h3>
                         <span class="goldLine"></span>
@@ -238,7 +238,7 @@
                 </div>
 
                 <div class="serviceCard">
-                    <img src="../assets/img/derechoPrivado.png" alt="Derecho Privado">
+                    <img src="/assets/img/derechoPrivado.png" alt="Derecho Privado">
                     <div class="overlay">
                         <h3>Derecho Privado</h3>
                         <span class="goldLine"></span>
@@ -250,7 +250,7 @@
                 </div>
 
                 <div class="serviceCard">
-                    <img src="../assets/img/derechoLaboral.png" alt="Derecho Laboral">
+                    <img src="/assets/img/derechoLaboral.png" alt="Derecho Laboral">
                     <div class="overlay">
                         <h3>Derecho Laboral</h3>
                         <span class="goldLine"></span>
@@ -262,7 +262,7 @@
                 </div>
 
                 <div class="serviceCard">
-                    <img src="../assets/img/derechoPenal.png" alt="Derecho Penal">
+                    <img src="/assets/img/derechoPenal.png" alt="Derecho Penal">
                     <div class="overlay">
                         <h3>Derecho Penal</h3>
                         <span class="goldLine"></span>
@@ -318,20 +318,20 @@
                 </div>
 
                 <div class="imgPurpleLegalOffice">
-                    <img class="imgPurple" src="../assets/img/purpleLegalOffice.jpeg" alt="Consultorio Jurídico Purpura">
+                    <img class="imgPurple" src="/assets/img/purpleLegalOffice.jpeg" alt="Consultorio Jurídico Purpura">
                 </div>
             </div>
         </section>
 
         <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
-            <?php include '../includes/footer.php'; ?>
+            <?php include '/includes/footer.php'; ?>
         </div>
 
         <!-- =================================================== SCRIPTS =================================================== -->
-        <script src="../assets/js/header.js"></script>
-        <script src="../assets/js/preloader.js"></script>
-        <script src="../assets/js/FAB.js"></script>
-        <script src="../assets/js/extension.js"></script>
+        <script src="/assets/js/header.js"></script>
+        <script src="/assets/js/preloader.js"></script>
+        <script src="/assets/js/FAB.js"></script>
+        <script src="/assets/js/extension.js"></script>
     </body>
 </html>

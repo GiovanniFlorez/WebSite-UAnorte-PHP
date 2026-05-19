@@ -4,27 +4,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Canales de Atención - UAnorte</title>
-        <link rel="icon" type="image/png" href="../assets/img/iconUAnorte.png">
-        <link rel="stylesheet" href="../assets/css/preloader.css">
-        <link rel="stylesheet" href="../assets/css/header.css">
-        <link rel="stylesheet" href="../assets/css/footer.css">
-        <link rel="stylesheet" href="../assets/css/FAB.css">
-        <link rel="stylesheet" href="../assets/css/canalesAtencion.css">
+        <link rel="icon" type="image/png" href="/assets/img/iconUAnorte.png">
+        <link rel="stylesheet" href="/assets/css/preloader.css">
+        <link rel="stylesheet" href="/assets/css/header.css">
+        <link rel="stylesheet" href="/assets/css/footer.css">
+        <link rel="stylesheet" href="/assets/css/FAB.css">
+        <link rel="stylesheet" href="/assets/css/canalesAtencion.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;1000;&display=swap" rel="stylesheet">
     </head>
     <body>
 <!-- =================================================== INCLUDES =================================================== -->
-        <?php include '../includes/preloader.php'; ?>
-        <?php require_once '../includes/config.php'; ?>
-        <?php include '../includes/header.php'; ?>
-        <?php include '../includes/FAB.php'; ?>
+        <?php include '/includes/preloader.php'; ?>
+        <?php require_once '/includes/config.php'; ?>
+        <?php include '/includes/header.php'; ?>
+        <?php include '/includes/FAB.php'; ?>
 <!-- =================================================== ATTENTION CHANNELS =================================================== -->
         <section class="attentionChannels">
         <!-- ================================ INFORMACIÓN DE PREGRADO Y POSGRADO ================================ -->
             <div class="card">
-                <img src="../assets/img/canalesAtencion1.jfif" alt="">
+                <img src="/assets/img/canalesAtencion1.jfif" alt="">
 
                 <h3>Información De Pregrado Y Posgrado</h3>
 
@@ -37,7 +37,7 @@
 
         <!-- ================================ ACOMPAÑAMIENTO PSICOLÓGICO AL ESTUDIANTE ================================ -->
             <div class="card">
-                <img src="../assets/img/canalesAtencion2.jfif" alt="">
+                <img src="/assets/img/canalesAtencion2.jfif" alt="">
 
                 <h3>Acompañamiento Psicológico Al Estudiante</h3>
 
@@ -52,7 +52,7 @@
 
         <!-- ================================ ASUNTOS JURÍDICOS Y LEGALES ================================ -->
             <div class="card">
-                <img src="../assets/img/canalesAtencion3.jfif" alt="">
+                <img src="/assets/img/canalesAtencion3.jfif" alt="">
 
                 <h3>Asuntos Jurídicos Y Legales</h3>
 
@@ -65,7 +65,7 @@
 
         <!-- ================================ REGISTRO Y CONTROL ACADÉMICO ================================ -->
             <div class="card">
-                <img src="../assets/img/canalesAtencion4.png" alt="">
+                <img src="/assets/img/canalesAtencion4.png" alt="">
 
                 <h3>Registro Y Control Académico</h3>
 
@@ -78,7 +78,7 @@
 
         <!-- ================================ EDUCACIÓN CONTINUA ================================ -->
             <div class="card">
-                <img src="../assets/img/canalesAtencion5.jfif" alt="">
+                <img src="/assets/img/canalesAtencion5.jfif" alt="">
 
                 <h3>Educación Continua</h3>
 
@@ -93,7 +93,7 @@
 
         <!-- ================================ HOJAS DE VIDA ================================ -->
             <div class="card">
-                <img src="../assets/img/canalesAtencion6.jfif" alt="">
+                <img src="/assets/img/canalesAtencion6.jfif" alt="">
 
                 <h3>Hojas De Vida</h3>
 
@@ -106,7 +106,7 @@
 
         <!-- ================================ CERTIFICADOS ================================ -->
             <div class="card">
-                <img src="../assets/img/canalesAtencion7.png" alt="">
+                <img src="/assets/img/canalesAtencion7.png" alt="">
 
                 <h3>Certificados</h3>
 
@@ -119,11 +119,11 @@
         </section>
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
-            <?php include '../includes/footer.php'; ?>
+            <?php include '/includes/footer.php'; ?>
         </div>
 <!-- =================================================== SCRIPTS =================================================== -->
-        <script src="../assets/js/header.js"></script>
-        <script src="../assets/js/preloader.js"></script>
-        <script src="../assets/js/FAB.js"></script>
+        <script src="/assets/js/header.js"></script>
+        <script src="/assets/js/preloader.js"></script>
+        <script src="/assets/js/FAB.js"></script>
     </body>
 </html>
