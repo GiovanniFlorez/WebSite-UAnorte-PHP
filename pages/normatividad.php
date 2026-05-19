@@ -71,7 +71,7 @@
                     <h2 class="card-title">Reglamentos</h2>
                 </div>
 
-                <a href="">
+                <a href="../assets/pdf/Reglamento-Estudiantil-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -85,7 +85,7 @@
                     </div>
                 </a>
 
-                <a href="">
+                <a href="../assets/pdf/Reglamento-Docentes-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -99,7 +99,7 @@
                     </div>
                 </a>
 
-                <a href="">
+                <a href="../assets/pdf/Reglamento-de-Transferencias.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -113,7 +113,7 @@
                     </div>
                 </a>
 
-                <a href="">
+                <a href="../assets/pdf/Reglamento-de-Becas-y-Descuentos.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -127,7 +127,7 @@
                     </div>
                 </a>
 
-                <a href="">
+                <a href="../assets/pdf/Protocolo-Pevencion-A-D-basada-en-genero.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -152,7 +152,7 @@
                     <h2 class="card-title">Políticas</h2>
                 </div>
 
-                <a href="" target="_blank">
+                <a href="../assets/pdf/Politica-de-Tratamiento-de-Datos-Personales-UAnorte-.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -168,7 +168,7 @@
                     </div>
                 </a>
 
-                <a href="" target="_blank">
+                <a href="../assets/pdf/Politica-Institucional-de-Autoevaluacion-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -184,7 +184,7 @@
                     </div>
                 </a>
 
-                <a href="" target="_blank">
+                <a href="../assets/pdf/Politica-Academica-UANORTE.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -200,7 +200,7 @@
                     </div>
                 </a>
 
-                <a href="" target="_blank">
+                <a href="../assets/pdf/Politica-de-Extension-y-Proyeccion-Social-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -216,7 +216,7 @@
                     </div>
                 </a>
 
-                <a href="" target="_blank">
+                <a href="../assets/pdf/Politica-de-Investigacion-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -232,7 +232,7 @@
                     </div>
                 </a>
 
-                <a href="" target="_blank">
+                <a href="../assets/pdf/Politica-Bienestar-Univesitario-UANORTE.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -248,7 +248,7 @@
                     </div>
                 </a>
 
-                <a href="" target="_blank">
+                <a href="../assets/pdf/Politica-de-Matenimiento-de-Infraestructura-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">
@@ -264,7 +264,7 @@
                     </div>
                 </a>
 
-                <a href="" target="_blank">
+                <a href="../assets/pdf/Politica-de-Gestion-de-la-informacion-UAnorte.pdf" target="_blank">
                     <div class="doc-item">
                         <div class="doc-left">
                             <div class="doc-icon">

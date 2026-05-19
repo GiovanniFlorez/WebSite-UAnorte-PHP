@@ -46,7 +46,7 @@
                 </a>
             </div>
 
-            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f" alt="Derecho">
+            <img src="../assets/img/comunicacionSocialMedios.jpg" alt="Derecho">
         </section>
 
         <section class="cards">
