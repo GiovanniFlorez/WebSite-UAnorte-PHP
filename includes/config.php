@@ -1,2 +1,2 @@
 <?php
-define('BASE_URL', '/UAnorte/WebSite-UAnorte-PHP');
+define('BASE_URL', '/UAnorte/WebSite-Uanorte-PHP/');

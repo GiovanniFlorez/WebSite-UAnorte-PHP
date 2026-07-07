@@ -12,7 +12,7 @@
 
         <!-- ========================================== CONTACTO ========================================== -->
         <div class="footer-column">
-          <img src="<?php echo BASE_URL; ?>assets/img/logoUAnorteBlanco.png" alt="UA Norte" class="footer-logo">
+          <img src="<?php echo BASE_URL; ?>/assets/img/logoUAnorteBlanco.png" alt="UA Norte" class="footer-logo">
           <p class="contacto">CONTACTO:</p>
 
           <a class="primeracolumnaLinks" href="https://www.google.com/maps/place/Corporaci%C3%B3n+Universitaria+Aut%C3%B3noma+del+Norte+(UANORTE)/@7.8833525,-72.5011238,21z/data=!4m6!3m5!1s0x8e66457d96f194a5:0x423003d68d040b48!8m2!3d7.8834329!4d-72.5009237!16s%2Fg%2F11hz6k9lmw?entry=tts" target="_blank" rel="noopener noreferrer">
