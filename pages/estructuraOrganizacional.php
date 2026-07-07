@@ -20,11 +20,37 @@
         <?php require_once '../includes/config.php'; ?>
         <?php include '../includes/header.php'; ?>
         <?php include '../includes/FAB.php'; ?>
+ 
+        <main>
+    <!-- =================================================== ORGANIZATIONAL STRUCTURE =================================================== -->
 
-<!-- =================================================== ORGANIZATIONAL STRUCTURE =================================================== -->
-        <div class="estructura-container">
-            <img src="../assets/img/Organigrama.svg" alt="Estructura Organizacional" class="estructura-img">
-        </div>
+            <section class="estructura-container">
+
+                <div class="estructura-info">
+                    <h1>Estructura Organizacional</h1>
+                    <p class="mensaje-mobile">
+                        <i class="fa-solid fa-hand-point-right"></i>
+                        Desliza horizontalmente para visualizar el organigrama completo.
+                    </p>
+
+                    <a href="../assets/img/Organigrama.svg"
+                    target="_blank"
+                    class="btn-organigrama">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                        Ver en pantalla completa
+                    </a>
+                </div>
+
+                <div class="estructura-scroll">
+                    <img
+                        src="../assets/img/Organigrama.svg"
+                        alt="Estructura Organizacional"
+                        class="estructura-img">
+                </div>
+
+            </section>
+
+        </main>
 
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">

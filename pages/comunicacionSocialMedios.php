@@ -8,107 +8,135 @@
         <link rel="stylesheet" href="../assets/css/preloader.css">
         <link rel="stylesheet" href="../assets/css/header.css">
         <link rel="stylesheet" href="../assets/css/footer.css">
-        <link rel="stylesheet" href="../assets/css/FAB.css">
         <link rel="stylesheet" href="../assets/css/cta.css">
         <link rel="stylesheet" href="../assets/css/comunicacionSocialMedios.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;1000;&display=swap" rel="stylesheet">
     </head>
-
     <body>
-<!-- =================================================== INCLUDES =================================================== -->
+    <!-- =================================================== INCLUDES =================================================== -->
         <?php include '../includes/preloader.php'; ?>
         <?php require_once '../includes/config.php'; ?>
         <?php include '../includes/header.php'; ?>
-        <?php include '../includes/FAB.php'; ?>
 
-<!-- =================================================== LEGAL =================================================== -->
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Comunicación Social y Medios</h1>
-                <p>
-                    Formamos comunicadores estratégicos y creativos, preparados para desenvolverse en el ecosistema 
-                    digital y los medios de comunicación modernos, con una visión crítica y responsable de la 
-                    comunicación.
-                </p>
+        <main class="main">
+            <section class="programa">
 
-                <p>
-                    Código SNIES 109846 - Resolución 002026 del 09 de Febrero del 2021
-                </p>
+                <!-- ════════ SIDEBAR STICKY ════════ -->
+                <aside class="sidebar">
+                    <img
+                        src="../assets/img/comunicacion.jpg"
+                        alt="Comunicación Social y Medios"
+                        class="sidebar-image"
+                    >
+                    <div class="overlay">
+                        <span class="badge">● Programa activo</span>
+                        <div class="program-info">
+                            <h1>Comunicación Social y Medios</h1>
+                            <p>Corporación Universitaria Autónoma del Norte</p>
+                            <div class="info-grid">
+                                <div class="info-card">
+                                    <small>DURACIÓN</small>
+                                    <strong>8 semestres</strong>
+                                </div>
+                                <div class="info-card">
+                                    <small>MODALIDAD</small>
+                                    <strong>Presencial</strong>
+                                </div>
+                                <div class="info-card">
+                                    <small>JORNADA</small>
+                                    <strong>Diurna/Nocturna</strong>
+                                </div>
+                                <div class="info-card">
+                                    <small>CREDITOS</small>
+                                    <strong>135</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
 
-                <a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14" target="_blank" rel="noopener noreferrer">
-                    <button class="btn btn-primary">Inscríbete aquí</button>
-                </a>
-                
-                <a href="../assets/pdf/PROSPECTOS  CSM.pdf" target="_blank">
-                    <button class="btn btn-secondary">Prospecto</button>
-                </a>
-            </div>
+                <!-- ════════ CONTENIDO SCROLLABLE ════════ -->
+                <main class="content">
 
-            <img src="../assets/img/comunicacionSocialMedios.jpg" alt="Derecho">
-        </section>
+                    <section class="hero">
+                        <span class="subtitle">PROGRAMA ACADÉMICO</span>
+                        <h2>Comunicación Social y Medios</h2>
+                        <p>
+                            Formamos comunicadores estratégicos y creativos, preparados para 
+                            desenvolverse en el ecosistema digital y los medios de comunicación 
+                            modernos.
 
-        <section class="cards">
-            <div class="card">
-                <h4>Duración</h4>
-                <p>8 semestres</p>
-            </div>
+                            <br>
 
-            <div class="card">
-                <h4>Modalidad</h4>
-                <p>Presencial</p>
-            </div>
+                            Res. 002026 del 09 de Febrero del 2021, SNIES N° 109846
+                        </p>
+                        <div class="buttons">
+                            <a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14"  target="_blank" rel="noopener noreferrer">
+                                <button class="btn-primary">Inscríbete aquí</button>
+                            </a>
 
-            <div class="card">
-                <h4>Jornada</h4>
-                <p>Diurna/Nocturna</p>
-            </div>
+                            <a href="../assets/pdf/PROSPECTOS CSM.pdf" target="_blank">
+                                <button class="btn-secondary">Ver prospecto</button>
+                            </a>
+                        </div>
+                    </section>
 
-            <div class="card">
-                <h4>Creditos</h4>
-                <p>135</p>
-            </div>
-        </section>
+                    <section>
+                        <h3>¿POR QUÉ ESTUDIAR EN UAnorte?</h3>
+                        <ul class="list">
+                            <li>Estudio de radio y TV propio</li>
+                            <li>Laboratorio multimedia equipado</li>
+                            <li>Talleres en medios reconocidos</li>
+                        </ul>
+                    </section>
 
-        <section class="info">
-            <div class="info-text">
-                <h2>¿Por qué estudiar Comunicación Social y Medios en UANORTE?</h2>
-                <p>
-                    En la Corporación Universitaria Autónoma del Norte te ofrecemos una formación de calidad
-                    con docentes altamente calificados y una infraestructura moderna.
-                </p>
+                    <section>
+                        <div class="info-box">
+                            En la Corporación Universitaria Autónoma del Norte te ofrecemos
+                            una formación de calidad con docentes altamente calificados y una
+                            infraestructura moderna que potenciará tu desarrollo profesional.
+                            Nuestro enfoque educativo combina la teoría con la práctica,
+                            permitiéndote adquirir las competencias necesarias para enfrentar
+                            los desafíos del mundo laboral actual.
+                        </div>
+                    </section>
 
-                <p>
-                    Nuestro enfoque educativo combina la teoría con la práctica, permitiéndote adquirir
-                    competencias necesarias para enfrentar el mundo laboral.
-                </p>
-            </div>
+                    <section>
+                        <h3>PERFIL DEL EGRESADO</h3>
+                        <div class="perfil-grid">
+                            <div class="perfil-item"><span>1</span> Producción audiovisual</div>
+                            <div class="perfil-item"><span>2</span> Comunicación digital y redes</div>
+                            <div class="perfil-item"><span>3</span> Periodismo crítico</div>
+                            <div class="perfil-item"><span>4</span> Estrategia de medios</div>
+                        </div>
+                    </section>
 
-            <div class="perfil">
-                <h3>Perfil del Egresado</h3>
-                <ul>
-                    <li>Profesional integral con sólidos conocimientos</li>
-                    <li>Capacidad de liderazgo y trabajo en equipo</li>
-                    <li>Compromiso social y ético</li>
-                    <li>Habilidades de investigación e innovación</li>
-                </ul>
-            </div>
-        </section>
+                    <section class="section-cta-wrapper">
+                        <div class="cta">
+                            <h2>¿Listo para comenzar tu futuro?</h2>
+                            <p>Únete a la comunidad UAnorte y transforma tu vida profesional</p>
+                            <div class="buttons">
+                                <button class="btn-light">Solicitar información</button>
 
-        <div>
-            <?php include '../includes/cta.php'; ?>
-        </div>
-        
+                                <a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14" target="_blank" rel="noopener noreferrer">
+                                    <button class="btn-outline">Inscríbete ahora →</button>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </section>
+        </main>
 
-<!-- =================================================== FOOTER =================================================== -->
+        <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
             <?php include '../includes/footer.php'; ?>
         </div>
 
-<!-- =================================================== SCRIPTS =================================================== -->
+        <!-- =================================================== SCRIPTS =================================================== -->
         <script src="../assets/js/header.js"></script>
         <script src="../assets/js/preloader.js"></script>
-        <script src="../assets/js/FAB.js"></script>
     </body>
 </html>

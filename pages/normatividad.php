@@ -21,267 +21,269 @@
         <?php include '../includes/header.php'; ?>
         <?php include '../includes/FAB.php'; ?>
 
-<!-- =================================================== HERO =================================================== -->
-    <section class="hero">
-        <h1>Normatividad</h1>
-        <p>
-        Consulta los estatutos, reglamentos y políticas que rigen el funcionamiento
-        de la Corporación Universitaria Autónoma del Norte (UAnorte).
-        </p>
-    </section>
+        <main>
+            <!-- =================================================== HERO =================================================== -->
+            <section class="hero">
+                <h1>Normatividad</h1>
+                <p>
+                Consulta los estatutos, reglamentos y políticas que rigen el funcionamiento
+                de la Corporación Universitaria Autónoma del Norte (UAnorte).
+                </p>
+            </section>
 
-    <div class="container">
+            <div class="container">
 
-        <!-- ========================= ESTATUTOS ========================= -->
-        <section class="card">
-            <div class="card-header">
-                <div class="icon-box blue">
-                    <i class="fa-regular fa-file-lines"></i>
+                <!-- ========================= ESTATUTOS ========================= -->
+                <section class="card">
+                    <div class="card-header">
+                        <div class="icon-box blue">
+                            <i class="fa-regular fa-file-lines"></i>
+                        </div>
+
+                        <h2 class="card-title">Estatutos</h2>
+                    </div>
+
+                    <a href="../assets/pdf/Estatutos-UAnorte.pdf" target="_blank">
+                        <div class="doc-item">
+                            <div class="doc-left">
+                                <div class="doc-icon">
+                                    <i class="fa-regular fa-file-pdf"></i>
+                                </div>
+
+                                <span class="doc-title">
+                                    Estatuto de la Corporación Universitaria Autónoma del Norte
+                                </span>
+                            </div>
+
+                            <i class="fa-solid fa-download download"></i>
+                        </div>
+                    </a>
+                </section>
+
+                <div class="grid">
+
+                    <section class="card">
+
+                        <div class="card-header">
+                            <div class="icon-box cyan">
+                                <i class="fa-regular fa-file-lines"></i>
+                            </div>
+
+                            <h2 class="card-title">Reglamentos</h2>
+                        </div>
+
+                        <a href="../assets/pdf/Reglamento-Estudiantil-UAnorte.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">Reglamento Estudiantil</span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Reglamento-Docentes-UAnorte.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">Reglamento Docentes</span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Reglamento-de-Transferencias.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">Reglamento de transferencias</span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Reglamento-de-Becas-y-Descuentos.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">Reglamento de Becas y Descuentos</span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Protocolo-Pevencion-A-D-basada-en-genero.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">Protocolo de Prevención, Detección, Atención de Violencias y Discriminación</span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+                    </section>
+
+                    <section class="card" style="background:#f3eef5;">
+
+                        <div class="card-header">
+                            <div class="icon-box purple">
+                                <i class="fa-regular fa-file-lines"></i>
+                            </div>
+
+                            <h2 class="card-title">Políticas</h2>
+                        </div>
+
+                        <a href="../assets/pdf/Politica-de-Tratamiento-de-Datos-Personales-UAnorte-.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">
+                                        Política de Tratamiento de Datos Personales
+                                    </span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Politica-Institucional-de-Autoevaluacion-UAnorte.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">
+                                        Política Institucional de Autoevaluación
+                                    </span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Politica-Academica-UANORTE.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">
+                                        Política Académica
+                                    </span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Politica-de-Extension-y-Proyeccion-Social-UAnorte.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">
+                                        Política de Extensión y Proyección Social
+                                    </span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Politica-de-Investigacion-UAnorte.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">
+                                        Política de Investigación
+                                    </span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Politica-Bienestar-Univesitario-UANORTE.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">
+                                        Política de Bienestar
+                                    </span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Politica-de-Matenimiento-de-Infraestructura-UAnorte.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">
+                                        Política de Mantenimiento de Infraestructura
+                                    </span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+
+                        <a href="../assets/pdf/Politica-de-Gestion-de-la-informacion-UAnorte.pdf" target="_blank">
+                            <div class="doc-item">
+                                <div class="doc-left">
+                                    <div class="doc-icon">
+                                        <i class="fa-regular fa-file-pdf"></i>
+                                    </div>
+
+                                    <span class="doc-title">
+                                        Política de Gestión de la Información
+                                    </span>
+                                </div>
+
+                                <i class="fa-solid fa-download download"></i>
+                            </div>
+                        </a>
+                    </section>
                 </div>
-
-                <h2 class="card-title">Estatutos</h2>
             </div>
-
-            <a href="../assets/pdf/Estatutos-UAnorte.pdf" target="_blank">
-                <div class="doc-item">
-                    <div class="doc-left">
-                        <div class="doc-icon">
-                            <i class="fa-regular fa-file-pdf"></i>
-                        </div>
-
-                        <span class="doc-title">
-                            Estatuto de la Corporación Universitaria Autónoma del Norte
-                        </span>
-                    </div>
-
-                    <i class="fa-solid fa-download download"></i>
-                </div>
-            </a>
-        </section>
-
-        <div class="grid">
-
-            <section class="card">
-
-                <div class="card-header">
-                    <div class="icon-box cyan">
-                        <i class="fa-regular fa-file-lines"></i>
-                    </div>
-
-                    <h2 class="card-title">Reglamentos</h2>
-                </div>
-
-                <a href="../assets/pdf/Reglamento-Estudiantil-UAnorte.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">Reglamento Estudiantil</span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Reglamento-Docentes-UAnorte.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">Reglamento Docentes</span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Reglamento-de-Transferencias.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">Reglamento de transferencias</span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Reglamento-de-Becas-y-Descuentos.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">Reglamento de Becas y Descuentos</span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Protocolo-Pevencion-A-D-basada-en-genero.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">Protocolo de Prevención, Detección, Atención de Violencias y Discriminación</span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-            </section>
-
-            <section class="card" style="background:#f3eef5;">
-
-                <div class="card-header">
-                    <div class="icon-box purple">
-                        <i class="fa-regular fa-file-lines"></i>
-                    </div>
-
-                    <h2 class="card-title">Políticas</h2>
-                </div>
-
-                <a href="../assets/pdf/Politica-de-Tratamiento-de-Datos-Personales-UAnorte-.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">
-                                Política de Tratamiento de Datos Personales
-                            </span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Politica-Institucional-de-Autoevaluacion-UAnorte.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">
-                                Política Institucional de Autoevaluación
-                            </span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Politica-Academica-UANORTE.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">
-                                Política Académica
-                            </span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Politica-de-Extension-y-Proyeccion-Social-UAnorte.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">
-                                Política de Extensión y Proyección Social
-                            </span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Politica-de-Investigacion-UAnorte.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">
-                                Política de Investigación
-                            </span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Politica-Bienestar-Univesitario-UANORTE.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">
-                                Política de Bienestar
-                            </span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Politica-de-Matenimiento-de-Infraestructura-UAnorte.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">
-                                Política de Mantenimiento de Infraestructura
-                            </span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-
-                <a href="../assets/pdf/Politica-de-Gestion-de-la-informacion-UAnorte.pdf" target="_blank">
-                    <div class="doc-item">
-                        <div class="doc-left">
-                            <div class="doc-icon">
-                                <i class="fa-regular fa-file-pdf"></i>
-                            </div>
-
-                            <span class="doc-title">
-                                Política de Gestión de la Información
-                            </span>
-                        </div>
-
-                        <i class="fa-solid fa-download download"></i>
-                    </div>
-                </a>
-            </section>
-        </div>
-    </div>
+        </main>
 
     <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">

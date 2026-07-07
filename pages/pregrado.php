@@ -21,35 +21,37 @@
         <?php include '../includes/header.php'; ?>
         <?php include '../includes/FAB.php'; ?>
 
-        <!-- =================================================== PROGRAMS =================================================== -->
-        <div class="programs">
+        <main>
+            <!-- =================================================== PROGRAMS =================================================== -->
+            <div class="programs">
 
-        <!-- ================================ UNDERGRADUATE PROGRAMS ================================ -->
-            <div class="undergraduate programs">
-                <h1>Programas de Pregrado</h1>
-                <h3>Formación profesional de calidad en ciencias sociales y humanas</h3>
+            <!-- ================================ UNDERGRADUATE PROGRAMS ================================ -->
+                <div class="undergraduate programs">
+                    <h1>Programas de Pregrado</h1>
+                    <h3>Formación profesional de calidad en ciencias sociales y humanas</h3>
 
-                <div class="imgUndergraduatePrograms">
-                    <a href="<?php echo BASE_URL; ?>pages/derecho.php">
-                        <img src="../assets/img/prospectoDerecho.png" alt="Derecho">
-                    </a>
+                    <div class="imgUndergraduatePrograms">
+                        <a href="../pages/derecho.php">
+                            <img src="../assets/img/prospectoDerecho.png" alt="Derecho">
+                        </a>
 
-                    <a href="<?php echo BASE_URL; ?>pages/trabajoSocial.php">
-                        <img src="../assets/img/prospectoTrabajoSocial.png" alt="Trabajo Social">
-                    </a>
+                        <a href="../pages/trabajoSocial.php">
+                            <img src="../assets/img/prospectoTrabajoSocial.png" alt="Trabajo Social">
+                        </a>
 
-                    <a href="<?php echo BASE_URL; ?>pages/comunicacionSocialMedios.php">
-                        <img src="../assets/img/prospectoComunicacionSocialMedios.png" alt="Comunicación Social y Medios">
-                    </a>
+                        <a href="../pages/comunicacionSocialMedios.php">
+                            <img src="../assets/img/prospectoComunicacionSocialMedios.png" alt="Comunicación Social y Medios">
+                        </a>
 
-                    <a href="<?php echo BASE_URL; ?>pages/psicologia.php">
-                        <img src="../assets/img/prospectoPsicologia.png" alt="Psicología">
-                    </a>
-                </div> 
-                
+                        <a href="../pages/psicologia.php">
+                            <img src="../assets/img/prospectoPsicologia.png" alt="Psicología">
+                        </a>
+                    </div> 
+                    
+                </div>
             </div>
-        </div>
-
+        </main>
+        
         <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
             <?php include '../includes/footer.php'; ?>

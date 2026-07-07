@@ -21,164 +21,166 @@
         <?php include '../includes/header.php'; ?>
         <?php include '../includes/FAB.php'; ?>
 
-<!-- =================================================== CONTENT =================================================== -->
-        <p class="title">Financiación, Becas y Convenios</p>
-        <hr>
+        <main>
+            <!-- =================================================== CONTENT =================================================== -->
+            <p class="title">Financiación, Becas y Convenios</p>
+            <hr>
+                
+            <div class="contenedorEnlaces"></div>
+            <img class="img1" src="../assets/img/creditoConfianza.png" alt="Crédito de Confianza">
+
+            <img class="img1" src="../assets/img/icetex.png" alt="ICETEX">
             
-        <div class="contenedorEnlaces"></div>
-        <img class="img1" src="../assets/img/creditoConfianza.png" alt="Crédito de Confianza">
-
-        <img class="img1" src="../assets/img/icetex.png" alt="ICETEX">
-        
-        <img class="img1" src="../assets/img/coopfuturo.png" alt="COOPFUTURO">
-        
-        <img class="img1" src="../assets/img/ven.png" alt="¡VEN!">
-        </div>
-
-        <!-- ========================================== FINANCIACIÓN ========================================== -->
-        <p class="title">Financiación</p>
-        <hr>
-
-        <div class="columns">
-            <div class="columnaOne">
-                <img class="imgColumnaOne" src="../assets/img/creditoConfianza.png" alt="Crédito de Confianza">
-                    
-                <div>
-                    <p class="textOne">Asesoría personalizada - UAnorte</p>
-                    <p class="textOne2">Número de contacto: 3172566612</p>
-                    <p class="textOne3">contacto@uanorte.edu.co</p>
-                </div>
-                
-                <a href="https://api.whatsapp.com/send/?phone=573172566612&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-                    <img class="imgColumnaOneW" src="../assets/img/buttonWhatsApp.png" alt="WhatsApp">
-                </a> 
-                
-                <img class="imgColumnaOne" src="../assets/img/ven.png" alt="¡VEN!">
+            <img class="img1" src="../assets/img/coopfuturo.png" alt="COOPFUTURO">
+            
+            <img class="img1" src="../assets/img/ven.png" alt="¡VEN!">
             </div>
 
-            <div class="columnaTwo">
-                <img class="imgColumnaTwo" src="../assets/img/financiacion1.png" alt="Imagen Financiación">
-            </div>
-        </div>
-
-        <!-- ========================================== ICETEX ========================================== -->
-        <div class="columns">
-            <div class="columnaOne">
-                <img class="imgColumnaTwo" src="../assets/img/financiacion2.png" alt="Imagen Financiación">
-            </div>
+            <!-- ========================================== FINANCIACIÓN ========================================== -->
+            <p class="title">Financiación</p>
+            <hr>
 
             <div class="columns">
-                <img class="imgColumna2" src="../assets/img/icetex.png" alt="ICETEX">
+                <div class="columnaOne">
+                    <img class="imgColumnaOne" src="../assets/img/creditoConfianza.png" alt="Crédito de Confianza">
+                        
+                    <div>
+                        <p class="textOne">Asesoría personalizada - UAnorte</p>
+                        <p class="textOne2">Número de contacto: 3172566612</p>
+                        <p class="textOne3">contacto@uanorte.edu.co</p>
+                    </div>
                     
-                <div class="div2Columna2">
-                    <img class="imgColumna22" src="../assets/img/icetexLarge.png" alt="ICETEX">
-                    <p class="textTwo">Asesoría personalizada</p>
-
-                    <p></p>
-
-                    <p class="textTwo2">ICETEX</p>
-                    <p class="textTwo3">Número de contacto: 3166287143</p>
-
-                    <p></p>
-
-                    <p class="textTwo4">UAnorte: Miguel Ángel López</p>
-                    <p class="textTwo5">Número de contacto: 3172566612</p>
-
-                    <a href="https://api.whatsapp.com/send/?phone=573172566612&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-                        <img class="imgColumnaOneW" src="../assets/img/buttonWhatsApp.png" alt="WhatsApp">
-                    </a>  
-                </div>
-            </div>
-        </div>
-
-        <!-- ========================================== COOFUTURO ========================================== -->
-        <div class="columns">
-            <div class="columns">
-                <img class="imgColumna2" src="../assets/img/coopfuturo.png" alt="COOPFUTURO">
-                    
-                <div class="div2Columna2">
-                    <img class="imgColumna22" src="../assets/img/coopfuturoLarge.png" alt="COOPFUTURO">
-                    <p class="textTwo">Asesoría personalizada</p>
-
-                    <p></p>
-
-                    <p class="textTwo2">COOFUTURO</p>
-                    <p class="textTwo3">Número de contacto: 3176653547</p>
-
-                    <p></p>
-
-                    <p class="textTwo4">UAnorte: Miguel Ángel López</p>
-                    <p class="textTwo5">Número de contacto: 3172566612</p>
-
-                    <a href="https://api.whatsapp.com/send/?phone=573172566612&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-                        <img class="imgColumnaOneW" src="../assets/img/buttonWhatsApp.png" alt="WhatsApp">
-                    </a>  
-                </div>
-            </div>
-
-            <div clas="columnaTwo">
-                <img class="imgColumnaTwo" src="../assets/img/financiacion3.png" alt="Imagen Financiación">
-            </div>
-        </div>
-
-        <!-- ========================================== BECAS ========================================== -->
-        <p class="title">Becas</p>
-        <hr>
-
-        <div class="columns">
-            <div class="columnaOne">
-                <img class="imgColumnaTwo" src="../assets/img/financiacion4.png" alt="Imagen Financiación">
-            </div>
-
-            <div class="columns">
-                <div class="columna1Becas">
-                    <img class="imgColumna222" src="../assets/img/UALogo.png" alt="Logo UAnorte">
-                    <p class="textBecas">ESTRATEGIA</p>
-                    <p class="textBecas2">NUEVAS GENERACIONES</p>
-
-                    <p></p>
-
-                    <p class="textBecas3">Asesoría personalizada - UAnorte</p>
-                    <p class="textBecas4">Número de contacto: 3172566612</p>
-                    <p class="textBecas5">contacto@uanorte.edu.co</p>
-
-                    <a href="https://api.whatsapp.com/send/?phone=573172566612&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-                        <img class="imgColumnaOneW" src="../assets/img/buttonWhatsApp.png" alt="WhatsApp">
-                    </a>  
-                </div> 
-
-                <div class="div2Columna2">
-                    <img class="imgColumna22" src="../assets/img/cucuta.png" alt="Escudo de Cúcuta">
-                </div>
-            </div>
-        </div>
-
-        <!-- ========================================== CONVENIOS ========================================== -->
-        <p class="title">Convenios</p>
-        <hr>
-
-        <div class="columns">
-            <div class="columnaOne">
-                <img class="imgUa" src="../assets/img/UALogo.png" alt="Logo UAnorte">
-
-                <img class="imgISER" src="../assets/img/ISER.png" alt="ISER">
-                    
-                <div class="textConvenios">
-                    <p class="textConvenios1">Asesoría personalizada - UAnorte</p>
-                    <p class="textConvenios2">Número de contacto: 3172566612</p>
-                    <p class="textConvenios3">contacto@uanorte.edu.co</p>
-
                     <a href="https://api.whatsapp.com/send/?phone=573172566612&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                         <img class="imgColumnaOneW" src="../assets/img/buttonWhatsApp.png" alt="WhatsApp">
                     </a> 
+                    
+                    <img class="imgColumnaOne" src="../assets/img/ven.png" alt="¡VEN!">
+                </div>
+
+                <div class="columnaTwo">
+                    <img class="imgColumnaTwo" src="../assets/img/financiacion1.png" alt="Imagen Financiación">
                 </div>
             </div>
-            
 
-            <div class="columnaTwo">
-                <img class="imgColumnaTwo" src="../assets/img/financiacion5.png" alt="Imagen Financiación">
+            <!-- ========================================== ICETEX ========================================== -->
+            <div class="columns">
+                <div class="columnaOne">
+                    <img class="imgColumnaTwo" src="../assets/img/financiacion2.png" alt="Imagen Financiación">
+                </div>
+
+                <div class="columns">
+                    <img class="imgColumna2" src="../assets/img/icetex.png" alt="ICETEX">
+                        
+                    <div class="div2Columna2">
+                        <img class="imgColumna22" src="../assets/img/icetexLarge.png" alt="ICETEX">
+                        <p class="textTwo">Asesoría personalizada</p>
+
+                        <p></p>
+
+                        <p class="textTwo2">ICETEX</p>
+                        <p class="textTwo3">Número de contacto: 3166287143</p>
+
+                        <p></p>
+
+                        <p class="textTwo4">UAnorte: Miguel Ángel López</p>
+                        <p class="textTwo5">Número de contacto: 3172566612</p>
+
+                        <a href="https://api.whatsapp.com/send/?phone=573172566612&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                            <img class="imgColumnaOneW" src="../assets/img/buttonWhatsApp.png" alt="WhatsApp">
+                        </a>  
+                    </div>
+                </div>
             </div>
-        </div>
+
+            <!-- ========================================== COOFUTURO ========================================== -->
+            <div class="columns">
+                <div class="columns">
+                    <img class="imgColumna2" src="../assets/img/coopfuturo.png" alt="COOPFUTURO">
+                        
+                    <div class="div2Columna2">
+                        <img class="imgColumna22" src="../assets/img/coopfuturoLarge.png" alt="COOPFUTURO">
+                        <p class="textTwo">Asesoría personalizada</p>
+
+                        <p></p>
+
+                        <p class="textTwo2">COOFUTURO</p>
+                        <p class="textTwo3">Número de contacto: 3176653547</p>
+
+                        <p></p>
+
+                        <p class="textTwo4">UAnorte: Miguel Ángel López</p>
+                        <p class="textTwo5">Número de contacto: 3172566612</p>
+
+                        <a href="https://api.whatsapp.com/send/?phone=573172566612&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                            <img class="imgColumnaOneW" src="../assets/img/buttonWhatsApp.png" alt="WhatsApp">
+                        </a>  
+                    </div>
+                </div>
+
+                <div clas="columnaTwo">
+                    <img class="imgColumnaTwo" src="../assets/img/financiacion3.png" alt="Imagen Financiación">
+                </div>
+            </div>
+
+            <!-- ========================================== BECAS ========================================== -->
+            <p class="title">Becas</p>
+            <hr>
+
+            <div class="columns">
+                <div class="columnaOne">
+                    <img class="imgColumnaTwo" src="../assets/img/financiacion4.png" alt="Imagen Financiación">
+                </div>
+
+                <div class="columns">
+                    <div class="columna1Becas">
+                        <img class="imgColumna222" src="../assets/img/UALogo.png" alt="Logo UAnorte">
+                        <p class="textBecas">ESTRATEGIA</p>
+                        <p class="textBecas2">NUEVAS GENERACIONES</p>
+
+                        <p></p>
+
+                        <p class="textBecas3">Asesoría personalizada - UAnorte</p>
+                        <p class="textBecas4">Número de contacto: 3172566612</p>
+                        <p class="textBecas5">contacto@uanorte.edu.co</p>
+
+                        <a href="https://api.whatsapp.com/send/?phone=573172566612&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                            <img class="imgColumnaOneW" src="../assets/img/buttonWhatsApp.png" alt="WhatsApp">
+                        </a>  
+                    </div> 
+
+                    <div class="div2Columna2">
+                        <img class="imgColumna22" src="../assets/img/cucuta.png" alt="Escudo de Cúcuta">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================== CONVENIOS ========================================== -->
+            <p class="title">Convenios</p>
+            <hr>
+
+            <div class="columns">
+                <div class="columnaOne">
+                    <img class="imgUa" src="../assets/img/UALogo.png" alt="Logo UAnorte">
+
+                    <img class="imgISER" src="../assets/img/ISER.png" alt="ISER">
+                        
+                    <div class="textConvenios">
+                        <p class="textConvenios1">Asesoría personalizada - UAnorte</p>
+                        <p class="textConvenios2">Número de contacto: 3172566612</p>
+                        <p class="textConvenios3">contacto@uanorte.edu.co</p>
+
+                        <a href="https://api.whatsapp.com/send/?phone=573172566612&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                            <img class="imgColumnaOneW" src="../assets/img/buttonWhatsApp.png" alt="WhatsApp">
+                        </a> 
+                    </div>
+                </div>
+                
+
+                <div class="columnaTwo">
+                    <img class="imgColumnaTwo" src="../assets/img/financiacion5.png" alt="Imagen Financiación">
+                </div>
+            </div>
+        </main>
 
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">

@@ -4,110 +4,139 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="../assets/img/iconUAnorte.png">
-        <title>Especialización En Intervención comunitaria - UAnorte</title>
+        <title>Especialización En Derecho Administrativo - UAnorte</title>
         <link rel="stylesheet" href="../assets/css/preloader.css">
         <link rel="stylesheet" href="../assets/css/header.css">
         <link rel="stylesheet" href="../assets/css/footer.css">
-        <link rel="stylesheet" href="../assets/css/FAB.css">
         <link rel="stylesheet" href="../assets/css/cta.css">
         <link rel="stylesheet" href="../assets/css/EIC.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gilroy-bold">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;1000;&display=swap" rel="stylesheet">
     </head>
-
     <body>
-<!-- =================================================== INCLUDES =================================================== -->
+    <!-- =================================================== INCLUDES =================================================== -->
         <?php include '../includes/preloader.php'; ?>
         <?php require_once '../includes/config.php'; ?>
         <?php include '../includes/header.php'; ?>
-        <?php include '../includes/FAB.php'; ?>
 
-<!-- =================================================== LEGAL =================================================== -->
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Especialización En Intervención comunitaria</h1>
-                <p>
-                    La Especialización en Intervención Comunitaria de UANORTE forma profesionales altamente capacitados 
-                    para diseñar, implementar y evaluar estrategias de desarrollo comunitario. Nuestros egresados lideran 
-                    procesos de transformación social con impacto real en las comunidades.
-                </p>
+        <main class="main">
+            <section class="programa">
 
-                <p>
-                    Código SNIES 110347 - Resolución 0010384 del 11 de Junio del 2021
-                </p>
+                <!-- ════════ SIDEBAR STICKY ════════ -->
+                <aside class="sidebar">
+                    <img
+                        src="../assets/img/EIC.jpg"
+                        alt="Especialización En Intervención Comunitaria"
+                        class="sidebar-image"
+                    >
+                    <div class="overlay">
+                        <span class="badge">● Programa activo</span>
+                        <div class="program-info">
+                            <h1>Especialización En Intervención Comunitaria</h1>
+                            <p>Corporación Universitaria Autónoma del Norte</p>
+                            <div class="info-grid">
+                                <div class="info-card">
+                                    <small>DURACIÓN</small>
+                                    <strong>2 semestres</strong>
+                                </div>
+                                <div class="info-card">
+                                    <small>MODALIDAD</small>
+                                    <strong>Presencial</strong>
+                                </div>
+                                <div class="info-card">
+                                    <small>JORNADA</small>
+                                    <strong>Mixta</strong>
+                                </div>
+                                <div class="info-card">
+                                    <small>CREDITOS</small>
+                                    <strong>24</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
 
-                <a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14" target="_blank" rel="noopener noreferrer">
-                    <button class="btn btn-primary">Inscríbete aquí</button>
-                </a>
-                
-                <a href="../assets/pdf/PROSPECTOS  EIC.pdf" target="_blank">
-                    <button class="btn btn-secondary">Prospecto</button>
-                </a>
-            </div>
+                <!-- ════════ CONTENIDO SCROLLABLE ════════ -->
+                <main class="content">
 
-            <img src="../assets/img/EIC.jpg" alt="Derecho">
-        </section>
+                    <section class="hero">
+                        <span class="subtitle">PROGRAMA ACADÉMICO</span>
+                        <h2>Especialización En Intervención Comunitaria</h2>
+                        <p>
+                            Forma profesionales altamente capacitados para diseñar, implementar y evaluar 
+                            estrategias de desarrollo comunitario con impacto real.
 
-        <section class="cards">
-            <div class="card">
-                <h4>Duración</h4>
-                <p>2 semestres</p>
-            </div>
+                            <br>
 
-            <div class="card">
-                <h4>Modalidad</h4>
-                <p>Presencial</p>
-            </div>
+                            Res. 021974 de Noviembre 24 de 2020, SNIES Nº 109755
+                        </p>
+                        <div class="buttons">
+                            <a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14" target="_blank" rel="noopener noreferrer">
+                                <button class="btn-primary">Inscríbete aquí</button>
+                            </a>
 
-            <div class="card">
-                <h4>Jornada</h4>
-                <p>Diurna/Nocturna</p>
-            </div>
+                            <a href="../assets/pdf/PROSPECTOS EIC.pdf" target="_blank">
+                                <button class="btn-secondary">Ver prospecto</button>
+                            </a>
+                        </div>
+                    </section>
 
-            <div class="card">
-                <h4>Creditos</h4>
-                <p>24</p>
-            </div>
-        </section>
+                    <section>
+                        <h3>¿POR QUÉ ESTUDIAR EN UAnorte?</h3>
+                        <ul class="list">
+                            <li>Proyectos reales de intervención</li>
+                            <li>Formación orientada al impacto social</li>
+                            <li>Flexibilidad Horaria</li>
+                        </ul>
+                    </section>
 
-        <section class="info">
-            <div class="info-text">
-                <h2>¿Por qué estudiar Especialización en Intervención Comunitaria en UANORTE?</h2>
-                <p>
-                    En la Corporación Universitaria Autónoma del Norte te ofrecemos una formación de calidad
-                    con docentes altamente calificados y una infraestructura moderna.
-                </p>
+                    <section>
+                        <div class="info-box">
+                            En la Corporación Universitaria Autónoma del Norte te ofrecemos
+                            una formación de calidad con docentes altamente calificados y una
+                            infraestructura moderna que potenciará tu desarrollo profesional.
+                            Nuestro enfoque educativo combina la teoría con la práctica,
+                            permitiéndote adquirir las competencias necesarias para enfrentar
+                            los desafíos del mundo laboral actual.
+                        </div>
+                    </section>
 
-                <p>
-                    Nuestro enfoque educativo combina la teoría con la práctica, permitiéndote adquirir
-                    competencias necesarias para enfrentar el mundo laboral.
-                </p>
-            </div>
+                    <section>
+                        <h3>PERFIL DEL EGRESADO</h3>
+                        <div class="perfil-grid">
+                            <div class="perfil-item"><span>1</span> Gestión de proyectos sociales</div>
+                            <div class="perfil-item"><span>2</span> Formulación de políticas</div>
+                            <div class="perfil-item"><span>3</span> Análisis comunitario</div>
+                            <div class="perfil-item"><span>4</span> Evaluación de impacto</div>
+                        </div>
+                    </section>
 
-            <div class="perfil">
-                <h3>Perfil del Egresado</h3>
-                <ul>
-                    <li>Profesional integral con sólidos conocimientos</li>
-                    <li>Capacidad de liderazgo y trabajo en equipo</li>
-                    <li>Compromiso social y ético</li>
-                    <li>Habilidades de investigación e innovación</li>
-                </ul>
-            </div>
-        </section>
+                    <section class="section-cta-wrapper">
+                        <div class="cta">
+                            <h2>¿Listo para comenzar tu futuro?</h2>
+                            <p>Únete a la comunidad UAnorte y transforma tu vida profesional</p>
+                            <div class="buttons">
+                                <button class="btn-light">Solicitar información</button>
 
-        <div>
-            <?php include '../includes/cta.php'; ?>
-        </div>
+                                <a href="https://site2.q10.com/Preinscripcion?aplentId=ccfdab40-6d54-4719-a89c-e85a6c812a14" target="_blank" target="_blank" rel="noopener noreferrer">
+                                    <button class="btn-outline">Inscríbete ahora →</button>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </main>
 
-<!-- =================================================== FOOTER =================================================== -->
+            </section>
+        </main>
+
+        <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
             <?php include '../includes/footer.php'; ?>
         </div>
 
-<!-- =================================================== SCRIPTS =================================================== -->
+        <!-- =================================================== SCRIPTS =================================================== -->
         <script src="../assets/js/header.js"></script>
         <script src="../assets/js/preloader.js"></script>
-        <script src="../assets/js/FAB.js"></script>
     </body>
 </html>

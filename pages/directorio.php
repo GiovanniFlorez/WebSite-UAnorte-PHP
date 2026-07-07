@@ -22,169 +22,169 @@
         <?php include '../includes/header.php'; ?>
         <?php include '../includes/FAB.php'; ?>
 
-<!-- =================================================== DIRECTORY =================================================== -->
-        <section class="directorio">
+        <main>
+            <!-- =================================================== DIRECTORY =================================================== -->
+            <section class="directorio">
 
-            <!-- ================================ OFFICE OF THE VICE-RECTOR FOR ADMINISTRATION AND FINANCE ================================ -->
-            <div class="card">
-                <h3>Vicerrectoría Administrativa y Financiera</h3>
+                <!-- ================================ OFFICE OF THE VICE-RECTOR FOR ADMINISTRATION AND FINANCE ================================ -->
+                <div class="card">
+                    <h3>Vicerrectoría Administrativa y Financiera</h3>
 
-                <p class="encargado">María Paola Castillo Celis</p>
+                    <p class="encargado">María Paola Castillo Celis</p>
 
-                <p>📧 <a href="mailto:p.planeacionygestion@uanorte.edu.co">p.planeacionygestion@uanorte.edu.co</a></p>
-                
-                <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
+                    <p>📧 <a href="mailto:p.planeacionygestion@uanorte.edu.co">p.planeacionygestion@uanorte.edu.co</a></p>
+                    
+                    <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Rectoría</p>
-            </div>
+                    <p>📍 Oficina de Rectoría</p>
+                </div>
 
-            <!-- ================================ HUMAN TALENT ================================ -->
-            <div class="card">
-                <h3>Talento Humano</h3>
+                <!-- ================================ HUMAN TALENT ================================ -->
+                <div class="card">
+                    <h3>Talento Humano</h3>
 
-                <p class="encargado">Solly Yaneth Maldonado Neira</p>
+                    <p class="encargado">Solly Yaneth Maldonado Neira</p>
 
-                <p>📧 <a href="mailto:talentohumano@uanorte.edu.co">talentohumano@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:talentohumano@uanorte.edu.co">talentohumano@uanorte.edu.co</a></p>
 
-                <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
+                    <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Secretaría General</p>
-            </div>
+                    <p>📍 Oficina de Secretaría General</p>
+                </div>
 
-            <!-- ================================ QUALITY MANAGEMENT ================================ -->
-            <div class="card">
-                <h3>Direccionamiento de la Calidad</h3>
+                <!-- ================================ QUALITY MANAGEMENT ================================ -->
+                <div class="card">
+                    <h3>Direccionamiento de la Calidad</h3>
 
-                <p class="encargado">Claudia Camila Suárez Delgado</p>
+                    <p class="encargado">Claudia Camila Suárez Delgado</p>
 
-                <p>📧 <a href="mailto:calidad@uanorte.edu.co">calidad@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:calidad@uanorte.edu.co">calidad@uanorte.edu.co</a></p>
 
-                <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
+                    <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Rectoría</p>
-            </div>
+                    <p>📍 Oficina de Rectoría</p>
+                </div>
 
-            <!-- ================================ ADMISSIONS AND REGISTRATION ================================ -->
-            <div class="card">
-                <h3>Admisiones y Matrículas</h3>
-                <p class="encargado">Daniela Alejandra Chacón Blanco</p>
+                <!-- ================================ ADMISSIONS AND REGISTRATION ================================ -->
+                <div class="card">
+                    <h3>Admisiones y Matrículas</h3>
+                    <p class="encargado">Daniela Alejandra Chacón Blanco</p>
 
-                <p>📧 <a href="mailto:admisiones@uanorte.edu.co">admisiones@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:admisiones@uanorte.edu.co">admisiones@uanorte.edu.co</a></p>
 
-                <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
+                    <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Admisiones y Matrícula</p>
-            </div>
+                    <p>📍 Oficina de Admisiones y Matrícula</p>
+                </div>
 
-            <!-- ================================ REGISTRATION AND CONTROL ================================ -->
-            <div class="card">
-                <h3>Registro y Control</h3>
-                <p class="encargado">Sandra Mireya Rodríguez Espinel</p>
+                <!-- ================================ REGISTRATION AND CONTROL ================================ -->
+                <div class="card">
+                    <h3>Registro y Control</h3>
+                    <p class="encargado">Sandra Mireya Rodríguez Espinel</p>
 
-                <p>📧 <a href="mailto:registroycontrol@uanorte.edu.co">registroycontrol@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:registroycontrol@uanorte.edu.co">registroycontrol@uanorte.edu.co</a></p>
 
-                <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
+                    <p>🕒 7:30 am – 11:3 0 pm<br>3:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Registro y Control</p>
-            </div>
+                    <p>📍 Oficina de Registro y Control</p>
+                </div>
 
-            <!-- ================================ COMMUNICATIONS ================================ -->
-            <div class="card">
-                <h3>Comunicaciones</h3>
+                <!-- ================================ COMMUNICATIONS ================================ -->
+                <div class="card">
+                    <h3>Comunicaciones</h3>
 
-                <p class="encargado">Jaider Andrés Galvis Rangel</p>
+                    <p class="encargado">Jaider Andrés Galvis Rangel</p>
 
-                <p>📧 <a href="mailto:comunicaciones@uanorte.edu.co">comunicaciones@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:comunicaciones@uanorte.edu.co">comunicaciones@uanorte.edu.co</a></p>
 
-                <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
+                    <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Admisiones y Matrícula</p>
-            </div>
+                    <p>📍 Oficina de Admisiones y Matrícula</p>
+                </div>
 
-            <!-- ================================ PHYSICAL AND TECHNOLOGICAL INFRASTRUCTURE ================================ -->
-            <div class="card">
-                <h3>Infraestructura Física y Tecnológica</h3>
+                <!-- ================================ PHYSICAL AND TECHNOLOGICAL INFRASTRUCTURE ================================ -->
+                <div class="card">
+                    <h3>Infraestructura Física y Tecnológica</h3>
 
-                <p class="encargado">
-                    Jhon Jairo Berrío Urquijo<br>
-                    Nelson Giovanni Florez Meneses
-                </p>
+                    <p class="encargado">
+                        Nelson Giovanni Florez Meneses
+                    </p>
 
-                <p>📧 <a href="mailto:infraestructura@uanorte.edu.co">infraestructura@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:infraestructura@uanorte.edu.co">infraestructura@uanorte.edu.co</a></p>
 
-                <p>🕒 9:00 am – 01:00 pm<br>1:30 pm - 9:30 pm</p>
+                    <p>🕒 1:30 pm - 9:30 pm</p>
 
-                <p>📍 Oficina de Admisiones y Matrícula</p>
-            </div>
+                    <p>📍 Oficina de Registro y Control</p>
+                </div>
 
-            <!-- ================================ EDUCATIONAL RESOURCES ================================ -->
-            <div class="card">
-                <h3>Medios Educativos</h3>
+                <!-- ================================ EDUCATIONAL RESOURCES ================================ -->
+                <div class="card">
+                    <h3>Medios Educativos</h3>
 
-                <p class="encargado">Ronny Xavier Romero Niño</p>
+                    <p class="encargado">Ronny Xavier Romero Niño</p>
 
-                <p>📧 <a href="mailto:medioseducativos@uanorte.edu.co">medioseducativos@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:medioseducativos@uanorte.edu.co">medioseducativos@uanorte.edu.co</a></p>
 
-                <p>🕒 6:00 am – 11:00 am<br>4:00 pm – 7:00 pm</p>
+                    <p>🕒 6:00 am – 11:00 am<br>4:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Registro y Control</p>
-            </div>
+                    <p>📍 Oficina de Registro y Control</p>
+                </div>
 
-            <!-- ================================ FINANCIAL ================================ -->
-            <div class="card">
-                <h3>Financiera</h3>
+                <!-- ================================ FINANCIAL ================================ -->
+                <div class="card">
+                    <h3>Financiera</h3>
 
-                <p class="encargado">Miguel Ángel López Martínez</p>
+                    <p class="encargado">Miguel Ángel López Martínez</p>
 
-                <p>📧 <a href="mailto:desarrolloacademico@uanorte.edu.co">desarrolloacademico@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:desarrolloacademico@uanorte.edu.co">desarrolloacademico@uanorte.edu.co</a></p>
 
-                <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
+                    <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Admisiones y Matrícula</p>
-            </div>
+                    <p>📍 Oficina de Admisiones y Matrícula</p>
+                </div>
 
-            <!-- ================================ ACCOUNTING ================================ -->
-            <div class="card">
-                <h3>Contabilidad</h3>
-                <p class="encargado">Yesenia Margarita Uribe Montilla</p>
+                <!-- ================================ ACCOUNTING ================================ -->
+                <div class="card">
+                    <h3>Contabilidad</h3>
+                    <p class="encargado">Yesenia Margarita Uribe Montilla</p>
 
-                <p>📧 <a href="mailto:a.contable@uanorte.edu.co">a.contable@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:a.contable@uanorte.edu.co">a.contable@uanorte.edu.co</a></p>
 
-                <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
+                    <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Admisiones y Matrícula</p>
-            </div>
+                    <p>📍 Oficina de Admisiones y Matrícula</p>
+                </div>
 
-            <!-- ================================ ACADEMIC VICE-RECTORATE ================================ -->
-            <div class="card">
-                <h3>Vicerrectoría Académica</h3>
+                <!-- ================================ ACADEMIC VICE-RECTORATE ================================ -->
+                <div class="card">
+                    <h3>Vicerrectoría Académica</h3>
 
-                <p class="encargado">Lorena del Valle Álvarez Ochoa</p>
+                    <p class="encargado">Lorena del Valle Álvarez Ochoa</p>
 
-                <p>📧 <a href="mailto:desarrolloacademico@uanorte.edu.co">desarrolloacademico@uanorte.edu.co</a></p>
+                    <p>📧 <a href="mailto:desarrolloacademico@uanorte.edu.co">desarrolloacademico@uanorte.edu.co</a></p>
 
-                <p>🕒 7:00 am – 12:00 pm<br>3:00 pm – 6:00 pm</p>
+                    <p>🕒 7:00 am – 12:00 pm<br>3:00 pm – 6:00 pm</p>
 
-                <p>📍 Vicerrectoría Académica y Directores</p>
-            </div>
+                    <p>📍 Vicerrectoría Académica y Directores</p>
+                </div>
 
-            <!-- ================================ GENERAL SECRETARIAT ================================ -->
-            <div class="card">
-                <h3>Secretaría General</h3>
+                <!-- ================================ GENERAL SECRETARIAT ================================ -->
+                <div class="card">
+                    <h3>Secretaría General</h3>
 
-                <p class="encargado">William Tomás Wilches Durán</p>
+                    <p class="encargado">William Tomás Wilches Durán</p>
 
-                <p>📧 <a href="mailto:secretariageneral@uanorte.edu.co">secretariageneral@uanorte.edu.co</a><br>
-                    <a href="mailto:a.secretariageneral@uanorte.edu.co">a.secretariageneral@uanorte.edu.co</a>
-                </p>
+                    <p>📧 <a href="mailto:secretariageneral@uanorte.edu.co">secretariageneral@uanorte.edu.co</a><br>
+                        <a href="mailto:a.secretariageneral@uanorte.edu.co">a.secretariageneral@uanorte.edu.co</a>
+                    </p>
 
-                <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
+                    <p>🕒 8:00 am – 12:00 pm<br>3:00 pm – 7:00 pm</p>
 
-                <p>📍 Oficina de Secretaría General</p>
-            </div>
+                    <p>📍 Oficina de Secretaría General</p>
+                </div>
 
-        </section>
-
+            </section>
+        </main>
 
 <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">

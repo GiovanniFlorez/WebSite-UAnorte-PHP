@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="../assets/img/iconUAnorte.png">
+        <link rel="icon" type="image/png" href="/assets/img/iconUAnorte.png">
         <title>Posgrado - UAnorte</title>
         <link rel="stylesheet" href="../assets/css/preloader.css">
         <link rel="stylesheet" href="../assets/css/header.css">
@@ -21,25 +21,27 @@
         <?php include '../includes/header.php'; ?>
         <?php include '../includes/FAB.php'; ?>
 
-        <!-- =================================================== PROGRAMS =================================================== -->
-        <div class="programs">
+        <main>
+            <!-- =================================================== PROGRAMS =================================================== -->
+            <div class="programs">
 
-        <!-- ================================ GRADUATE PROGRAMS ================================ -->
-            <div class="graduate programs">
-                <h1>Programas de Posgrado</h1>
-                <h3>Especializaciones para profundizar tu conocimiento y experiencia</h3>
+            <!-- ================================ GRADUATE PROGRAMS ================================ -->
+                <div class="graduate programs">
+                    <h1>Programas de Posgrado</h1>
+                    <h3>Especializaciones para profundizar tu conocimiento y experiencia</h3>
 
-                <div class="imgGraduatePrograms">
-                    <a href="<?php echo BASE_URL; ?>pages/EIC.php">
-                        <img src="../assets/img/prospectoEspecializacionIntervencionComunitaria.png" alt="Prospecto Especialización En Intervención Comunitaria">
-                    </a>
+                    <div class="imgGraduatePrograms">
+                        <a href="../pages/EIC.php">
+                            <img src="../assets/img/prospectoEspecializacionIntervencionComunitaria.png" alt="Prospecto Especialización En Intervención Comunitaria">
+                        </a>
 
-                    <a href="<?php echo BASE_URL; ?>pages/EDA.php">
-                        <img src="../assets/img/prospectoEspecializacionDerechoAdministrativo.png" alt="Prospecto Especialización En Derecho Administrativo">
-                    </a>
+                        <a href="../pages/EDA.php">
+                            <img src="../assets/img/prospectoEspecializacionDerechoAdministrativo.png" alt="Prospecto Especialización En Derecho Administrativo">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
 
         <!-- =================================================== FOOTER =================================================== -->
         <div class="footer">
