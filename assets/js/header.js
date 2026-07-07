@@ -3,6 +3,18 @@ const nav = document.getElementById("navMenu");
 const submenuToggles = document.querySelectorAll(".submenu-toggle");
 const submenuLinks = document.querySelectorAll(".has-submenu > span");
 
+// =================================================== AJUSTE DINÁMICO DE --header-height ===================================================
+function actualizarAlturaHeader() {
+    const header = document.querySelector("header");
+    if (header) {
+        document.documentElement.style.setProperty("--header-height", `${header.offsetHeight}px`);
+    }
+}
+
+actualizarAlturaHeader();
+window.addEventListener("load", actualizarAlturaHeader);
+window.addEventListener("resize", actualizarAlturaHeader);
+
 toggle.addEventListener("click", (e) => {
     e.stopPropagation();
     nav.classList.toggle("active");
