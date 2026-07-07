@@ -1,0 +1,268 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+main{
+    padding-top: var(--header-height);
+}
+
+a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.hero{
+    background:linear-gradient(90deg,#0000ff,#32dbfd);
+    color:white;
+    padding:60px 70px;
+}
+
+.hero h1{
+    font-size:64px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    max-width:700px;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:50px auto;
+}
+
+.card{
+    background:#eef5fa;
+    border-radius:20px;
+    padding:30px;
+    margin-bottom:35px;
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.274);
+}
+
+.card-header{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.icon-box{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:20px;
+}
+
+.blue{
+    background:#0000ff;
+}
+
+.card-title{
+    font-size:42px;
+    font-weight:700;
+    color:#464646;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.doc-item{
+    background:white;
+    border-radius:14px;
+    padding:18px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:18px;
+    border:1px solid #e6e6e6;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.doc-item:hover{
+    transform:translateY(-2px);
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    border-color:#0000ff;
+}
+
+.doc-left{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+.doc-icon{
+    width:42px;
+    height:42px;
+    background:#ffe9ee;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: #fa4156;
+    font-size:18px;
+}
+
+.doc-title{
+    font-size:20px;
+    font-weight:500;
+}
+
+.download{
+    color:#464646;
+    font-size:20px;
+    transition:0.3s;
+}
+
+.doc-item:hover .download{
+    color:#0000ff;
+}
+
+.info-financiera{
+    background:#eef5fa !important;
+    border:1px solid #b7e3ff !important;
+    border-radius:20px !important;
+    padding:28px 32px !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:space-between !important;
+    gap:25px !important;
+    margin-top:30px !important;
+}
+
+.info-left{
+    display:flex !important;
+    align-items:center !important;
+    gap:20px !important;
+}
+
+.info-icon{
+    min-width:58px !important;
+    height:58px !important;
+    background:#0000ff !important;
+    border-radius:14px !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    color:white !important;
+    font-size:24px !important;
+}
+
+.info-text h3{
+    margin:0 0 8px !important;
+    font-size:34px !important;
+    font-weight:700 !important;
+    color:#303030 !important;
+}
+
+.info-text p{
+    margin:0 !important;
+    max-width:650px !important;
+    font-size:18px !important;
+    line-height:1.6 !important;
+    color:#464646 !important;
+}
+
+.info-btn{
+    background:#0000ff !important;
+    color:white !important;
+    padding:16px 28px !important;
+    border-radius:14px !important;
+    display:flex !important;
+    align-items:center !important;
+    gap:10px !important;
+    font-weight:600 !important;
+    transition:0.3s !important;
+    white-space:nowrap !important;
+}
+
+.info-btn:hover{
+    background:#1616ff !important;
+    transform:translateY(-2px) !important;
+}
+
+/* ================ RESPONSIVE ================ */
+
+@media(max-width:900px){
+    body, html {
+    padding-top: 7%;
+    }
+
+    .hero{
+        padding:40px 30px;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .card-title{
+        font-size:32px;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+    
+    .info-financiera{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .info-text h3{
+        font-size:28px;
+    }
+
+    .info-text p{
+        font-size:16px;
+    }
+}
+
+@media(max-width:600px){
+    body, html {
+    padding-top: 13%;
+    }
+    
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .doc-title{
+        font-size:16px;
+    }
+    
+    .info-left{
+        align-items:flex-start;
+    }
+
+    .info-text h3{
+        font-size:24px;
+    }
+
+    .info-btn{
+        width:100%;
+        justify-content:center;
+    }
+}

@@ -1,8 +1,16 @@
-body, html {
+html{
+    scroll-behavior: smooth;
+}
+
+body{
     margin: 0;
-    padding-top: 3%;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
+    
+}
+
+main{
+    padding-top: var(--header-height);
 }
 
 a {

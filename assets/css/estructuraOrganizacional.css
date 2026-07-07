@@ -1,20 +1,165 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow: auto;
+html{
+    scroll-behavior:smooth;
 }
 
-.estructura-container {
-    padding-top: calc(90px + 4vh);
-    padding-bottom: 20px;
-
-    display: flex;
-    justify-content: center;
+body{
+    margin:0;
+    overflow-x:hidden;
+    font-family:'Montserrat',sans-serif;
 }
 
-.estructura-img {
-    width: 95%;
-    max-width: 1200px;
-    height: auto;
-    display: block;
+main{
+    padding-top:var(--header-height);
+}
+
+/* ====================== CONTENEDOR ====================== */
+
+.estructura-container{
+    width:95%;
+    max-width:1400px;
+    margin:auto;
+    padding:30px 0 40px;
+}
+
+/* ====================== TÍTULO ====================== */
+
+.estructura-info{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.estructura-info h1{
+    color:#0000ff;
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.mensaje-mobile{
+    display:none;
+}
+
+/* ====================== BOTÓN ====================== */
+
+.btn-organigrama{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    margin-top:10px;
+    padding:12px 22px;
+    border-radius:8px;
+    background:#0000ff;
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-organigrama:hover{
+    background:#0000ff;
+}
+
+/* ====================== ORGANIGRAMA ====================== */
+
+.estructura-scroll{
+    width:100%;
+    overflow-x:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+}
+
+.estructura-img{
+    display:block;
+    width:100%;
+    max-width:1200px;
+    height:auto;
+    margin:auto;
+}
+
+/* ====================== PANTALLAS GRANDES ====================== */
+
+@media (min-width:1600px){
+
+    .estructura-img{
+        max-width:1500px;
+    }
+
+}
+
+@media (min-width:2200px){
+
+    .estructura-img{
+        max-width:1800px;
+    }
+
+}
+
+/* ====================== TABLETS ====================== */
+
+@media (max-width:1024px){
+
+    .estructura-container{
+        width:96%;
+    }
+
+    .estructura-info h1{
+        font-size:1.8rem;
+    }
+
+}
+
+/* ====================== TELÉFONOS ====================== */
+
+@media (max-width:768px){
+
+    .estructura-container{
+        width:100%;
+        padding:20px 0;
+    }
+
+    .estructura-info{
+        padding:0 20px;
+    }
+
+    .estructura-info h1{
+        font-size:1.6rem;
+    }
+
+    .mensaje-mobile{
+        display:block;
+        color:#464646;
+        font-size:14px;
+        margin:15px 0;
+    }
+
+    .btn-organigrama{
+        font-size:14px;
+        padding:10px 18px;
+    }
+
+    .estructura-scroll{
+        overflow-x:auto;
+        padding:20px 15px;
+    }
+
+    .estructura-img{
+        width:1000px;
+        max-width:none;
+        min-width:1000px;
+    }
+
+}
+
+/* ====================== CELULARES PEQUEÑOS ====================== */
+
+@media (max-width:480px){
+
+    .estructura-info h1{
+        font-size:1.4rem;
+    }
+
+    .estructura-img{
+        width:950px;
+        min-width:950px;
+    }
+
 }

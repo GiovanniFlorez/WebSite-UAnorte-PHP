@@ -16,6 +16,7 @@ body{
 
 main{
     padding-top: var(--header-height);
+    margin-bottom: 2%;
 }
 
 img {
@@ -70,6 +71,9 @@ img {
     text-decoration: none;
     font-size: 18px;
     transition: .3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn.primary{
@@ -263,41 +267,11 @@ img {
 
 hr{
     margin-top: 2%;
+    margin-bottom: 2%;
     border: none;
     height: 1px;
     background-color: #46464685;
     width: 100%;
-}
-
-.about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin: 5%;
-}
-
-.about .text,
-.about h1 {
-    text-align: left;
-}
-
-.about h1 {
-    font-size: 36px;
-    margin-bottom: 15px;
-    color: #464646;
-}
-
-.about p {
-    font-size: 18px;
-    line-height: 1.6;
-    font-weight: 100;
-    color: #464646;
-}
-
-.imgAboutUAnorte img {
-    width: 100%;
-    height: auto;
-    border-radius: 5%;
 }
 
 /* ============================= PANTALLAS GRANDES ============================= */
@@ -331,10 +305,34 @@ hr{
         width: 320px;
     }
 
-    .about{
-        max-width: 1400px;
-        margin: 100px auto;
-        align-items: center;
+}
+
+
+/* ============================= LAPTOPS / PANTALLAS INTERMEDIAS (1025px - 1366px) ============================= */
+@media (min-width: 1025px) and (max-width: 1366px){
+
+    .hero{
+        height: 550px;
+    }
+
+    .hero-left{
+        padding: 0 60px;
+    }
+
+    .hero-content{
+        max-width: 600px;
+    }
+
+    .hero-content h1{
+        font-size: 42px;
+    }
+
+    .hero-content p{
+        font-size: 18px;
+    }
+
+    .cards a{
+        width: 270px;
     }
 
 }
@@ -363,16 +361,6 @@ hr{
         width: 250px;
     }
 
-    .about{
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
-
-    .about .text,
-    .about h1{
-        text-align: center;
-    }
-
 }
 
 
@@ -391,7 +379,7 @@ hr{
     }
 
     .hero-left{
-        padding: 70px 30px;
+        padding: 10px 30px;
         justify-content: center;
     }
 
@@ -414,7 +402,8 @@ hr{
     }
 
     .hero-right{
-        height: 400px;
+        aspect-ratio: 16 / 10;
+        height: auto;
     }
 
     /* PROGRAMAS */
@@ -438,20 +427,6 @@ hr{
     .cards a{
         width: 260px;
     }
-
-    /* ABOUT */
-
-    .about{
-        grid-template-columns: 1fr;
-        gap: 40px;
-        margin: 70px 30px;
-    }
-
-    .about .text,
-    .about h1{
-        text-align: center;
-    }
-
 }
 
 
@@ -461,7 +436,7 @@ hr{
     /* HERO */
 
     .hero-left{
-        padding: 60px 20px;
+        padding: 10px 20px;
     }
 
     .hero-content h1{
@@ -487,7 +462,8 @@ hr{
     }
 
     .hero-right{
-        height: 300px;
+        aspect-ratio: 4 / 3;
+        height: auto;
     }
 
     /* FLECHAS DEL SLIDER */
@@ -531,21 +507,6 @@ hr{
         max-width: 320px;
     }
 
-    /* ABOUT */
-
-    .about{
-        margin: 60px 20px;
-    }
-
-    .about h1{
-        font-size: 30px;
-    }
-
-    .about p{
-        font-size: 16px;
-        text-align: justify;
-    }
-
 }
 
 
@@ -554,10 +515,14 @@ hr{
 
     .hero-content h1{
         font-size: 26px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .hero-content p{
         font-size: 15px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .btn{
@@ -580,14 +545,6 @@ hr{
 
     .cards a{
         max-width: 280px;
-    }
-
-    .about h1{
-        font-size: 26px;
-    }
-
-    .about p{
-        font-size: 15px;
     }
 
 }

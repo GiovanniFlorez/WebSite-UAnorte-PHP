@@ -7,17 +7,22 @@ body {
     margin: 0;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 60px;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
+:root{
+    --header-height: 101px;
+}
+
+header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    min-height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background: white;
+    border-bottom: 1px solid #e5e5e5;
     z-index: 1000;
 }
 
@@ -27,7 +32,7 @@ header {
 }
 
 .logo img {
-    height: 70px;
+    height: 100px;
 }
 
 nav {
@@ -47,7 +52,7 @@ nav ul li button,
 nav ul li a {
     text-decoration: none;
     color: #464646;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     position: relative;
 }
@@ -182,11 +187,40 @@ nav ul li button:hover::after {
         display: flex !important;
     }
 
-
     nav ul li span,
     nav ul li button,
     .submenu a {
         color: #464646;
         font-size: 16px;
     }
+}
+
+@media (max-width: 1024px){
+
+    :root{
+        --header-height: 90px;
+    }
+
+    /* AJUSTE: el logo debe encajar con el nuevo --header-height
+       60px (logo) + 15px + 15px (padding vertical) = 90px */
+    .logo img {
+        height: 60px;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    :root{
+        --header-height: 80px;
+    }
+
+    header{
+        padding: 10px 20px;
+    }
+
+    .logo img{
+        height: 55px;
+    }
+
 }
