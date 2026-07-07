@@ -75,7 +75,8 @@
                         </div>
                     </div>
 
-                    <a href="mailto:p.adminfinanciero@uanorte.edu.co" class="info-btn">
+                    <a href="mailto:p.adminfinanciero@uanorte.edu.co
+                    " class="info-btn">
                         Contactar área financiera
                         <i class="fa-solid fa-chevron-right"></i>
                     </a>
